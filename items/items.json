@@ -1,0 +1,302 @@
+[
+    {
+    "name": "Frog Rings",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/frog_ring.png",
+    "min_quantity": 0,
+    "max_quantity": 10,
+	"display_as_fraction_of_max": true,
+    "codes": "frog_rings"
+  },
+  {
+    "name": "Tooth Brush",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/tooth_brush.png",
+    "codes": "tooth_brush"
+  },
+  {
+    "name": "Squirter",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/squirter.png",
+    "codes": "squirter"
+  },
+  {
+    "name": "Spoon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/spoon.png",
+    "codes": "spoon"
+  },
+  {
+    "name": "Mug",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/mug.png",
+    "codes": "mug"
+  },
+  {
+    "name": "Toy Receipt",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/toy_receipt.png",
+    "codes": "toy_receipt"
+  },
+  {
+    "name": "Charge Chip",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/chip.png",
+    "codes": "charge_chip"
+  },
+  {
+    "name": "Range Chip",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/chip.png",
+    "codes": "range_chip"
+  },
+  {
+    "name": "Alien Ear Chip",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/chip.png",
+    "codes": "ear_chip"
+  },
+  {
+    "name": "Chibi Battery",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/chibi_battery.png",
+    "codes": "chibi_battery"
+  },
+  {
+    "name": "Giga Charger",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/giga_charger.png",
+    "codes": "giga_charger"
+  },
+  {
+    "name": "Giga Battery",
+    "type": "progressive",
+    "allow_disabled": "false",
+    "loop": "true",
+    "stages": [
+      {
+        "img": "images/items/uncharged_giga_battery.png"
+      },
+      {
+        "img": "images/items/charged_giga_battery.png",
+        "img_mods": "@disabled",
+        "codes": "gigabattery,g4"
+      }
+    ]
+  },
+  {
+    "name": "Giga Left Leg",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/left_leg.png",
+    "codes": "giga_left_leg"
+  },
+  {
+    "name": "Free Rangers Photo",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/army_photo.png",
+    "codes": "army_photo"
+  },
+  {
+    "name": "Red Block",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/red_block.png",
+    "codes": "red_block"
+  },
+  {
+    "name": "Green Block",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/green_block.png",
+    "codes": "green_block"
+  },
+  {
+    "name": "White Block",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/white_block.png",
+    "codes": "white_block"
+  },
+  {
+    "name": "Blue Block",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/blue_block.png",
+    "codes": "blue_block"
+  },
+  {
+    "name": "Yellow Block",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/yellow_block.png",
+    "codes": "yellow_block"
+  },
+  {
+    "name": "Purple Block",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/purple_block.png",
+    "codes": "purple_block"
+  },
+  {
+    "name": "Red Crayon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/red_crayon.png",
+    "codes": "red_crayon"
+  },
+  {
+    "name": "Yellow Crayon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/yellow_crayon.png",
+    "codes": "yellow_crayon"
+  },
+  {
+    "name": "Green Crayon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/green_crayon.png",
+    "codes": "green_crayon"
+  },
+  {
+    "name": "Purple Crayon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/purple_crayon.png",
+    "codes": "purple_crayon"
+  },
+  {
+    "name": "Dog Tags",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/dog_tags.png",
+    "codes": "dog_tags"
+  },
+  {
+    "name": "Bandage",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/bandage.png",
+    "codes": "bandage"
+  },
+  {
+    "name": "Ticket Stub",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/ticket_stub.png",
+    "codes": "ticket_stub"
+  },
+  {
+    "name": "Gunpowder",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/gunpowder.png",
+    "codes": "gunpower"
+  },
+  {
+    "name": "Hot Rod",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/hot_rod.png",
+    "codes": "hot_rod"
+  },
+  {
+    "name": "Space Scrambler",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/space_scrambler.png",
+    "codes": "space_scrambler"
+  },
+  {
+    "name": "Passed Out Frog",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/passed_out_frog.png",
+    "codes": "passed_out_frog"
+  },
+  {
+    "name": "Dinah Teeth",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/dinah_teeth.png",
+    "codes": "dinah_teeth"
+  },
+  {
+    "name": "Red Shoe",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/red_shoe.png",
+    "codes": "red_shoe"
+  },
+  {
+    "name": "Scurvy Splinter",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/scurvy_splinter.png",
+    "codes": "scurvy_splinter"
+  },
+  {
+    "name": "Chibi Radar",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/radar.png",
+    "codes": "radar"
+  },
+  {
+    "name": "Chibi Blaster",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/blaster.png",
+    "codes": "blaster"
+  },
+  {
+    "name": "Snorkel",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/snorkel.png",
+    "codes": "snorkel"
+  },
+  {
+    "name": "AA Battery",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/a_a_battery.png",
+    "codes": "a_a_battery"
+  },
+  {
+    "name": "C Battery",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/c_battery.png",
+    "codes": "c_battery"
+  },
+  {
+    "name": "D Battery",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/d_battery.png",
+    "codes": "d_battery"
+  },
+  {
+    "name": "Dads Wedding Ring",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/dads_wedding_band.png",
+    "codes": "dads_wedding_band"
+  }
+  
+]

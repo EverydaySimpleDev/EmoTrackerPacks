@@ -1,0 +1,30 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "6,1",
+            "h_alignment": "left",
+            "item_size": 64,
+            "rows": [
+              [ "frog_rings",        "tooth_brush",   "squirter",     "spoon",             "mug",                        "radar",            "blaster",           "snorkel" ],
+              [ "toy_receipt",       "charge_chip",   "range_chip",    "ear_chip",         "chibi_battery",              "gigabattery",      "giga_charger",      "giga_left_leg"  ],
+              [ "army_photo",        "ticket_stub",    "gunpower",     "hot_rod",          "space_scrambler",            "a_a_battery",      "c_battery",         "d_battery"  ],
+              [ "red_block",         "green_block",    "white_block",  "blue_block",       "yellow_block",               "purple_block",     "",                  ""  ],
+              [ "red_crayon",        "yellow_crayon",  "green_crayon", "purple_crayon",    "dog_tags",                   "bandage",          "",                  ""  ],
+              [ "passed_out_frog",   "dinah_teeth",     "red_shoe",    "scurvy_splinter",  "dads_wedding_band",           "",                "",                  ""  ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

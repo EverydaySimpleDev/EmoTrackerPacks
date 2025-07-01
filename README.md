@@ -1,2 +1,20 @@
-# -EmoTrackerPacks
-Map Tracker for Chibi Robo: Unpluged
+# Chibi Robo Unpluged: EmoTracker
+
+EmoTracker pack for Chibi Robo Unpluged
+
+Super Metroid Redesign Randomizer: https://github.com/EverydaySimpleDev/Chibi-Robo-Randomizer
+
+Get EmoTracker here: https://emotracker.net/
+
+## Installation
+
+Get it on emotracker! No crazy install!
+
+But if you want to do the crazy install:
+
+Download the zip file, and extract it into:
+C:\Users\[Your Username]\Documents\EmoTracker\packs
+so you'll have a folder:
+C:\Users\[Your Username]\Documents\EmoTracker\packs\smredesignrando
+
+Open EmoTracker. In the top right, select the gear. In the menu, this tracker will be listed under Other.

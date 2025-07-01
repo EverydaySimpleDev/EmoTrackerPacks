@@ -1,0 +1,71 @@
+[
+  {
+    "name": "All Locations",
+    "children": [
+      {
+        "name": "Crateria",
+        "color": "#d83890",
+        "children": [
+          {
+            "name": "Living Room",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children": [
+              {
+                "name": "Living_Room_Frog_Ring_Behind_Window",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 816,
+                    "y": 367
+                  }
+                ]
+              },
+              {
+                "name": "Living_Room_Frog_Ring_Corkboard",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 816,
+                    "y": 367
+                  }
+                ]
+              },
+              {
+                "name": "Living_Room_Frog_Ring_Shelf",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 816,
+                    "y": 367
+                  }
+                ]
+              }
+			  
+            ]
+          }
+        ]
+      }
+
+    ]
+  }
+]

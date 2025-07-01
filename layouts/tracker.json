@@ -1,0 +1,247 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "6,1",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "frog_rings",
+                "tooth_brush",
+                "squirter",
+                "spoon",
+                "mug",
+                "radar",
+                "blaster",
+                "snorkel"
+              ],
+              [
+                "toy_receipt",
+                "charge_chip",
+                "range_chip",
+                "ear_chip",
+                "chibi_battery",
+                "gigabattery",
+                "giga_charger",
+                "giga_left_leg"
+              ],
+              [
+                "army_photo",
+                "ticket_stub",
+                "gunpower",
+                "hot_rod",
+                "space_scrambler",
+                "a_a_battery",
+                "c_battery",
+                "d_battery"
+              ],
+              [
+                "red_block",
+                "green_block",
+                "white_block",
+                "blue_block",
+                "yellow_block",
+                "purple_block",
+                "",
+                ""
+              ],
+              [
+                "red_crayon",
+                "yellow_crayon",
+                "green_crayon",
+                "purple_crayon",
+                "dog_tags",
+                "bandage",
+                "",
+                ""
+              ],
+              [
+                "passed_out_frog",
+                "dinah_teeth",
+                "red_shoe",
+                "scurvy_splinter",
+                "dads_wedding_band",
+                "",
+                "",
+                ""
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Zoom",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Living Room",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "livingroommap"
+                          ],
+                          "min_height": 832
+                        }
+                      ]
+                    }
+                  }
+                
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+			{
+              "title": "Fit",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Living Room",
+                    "icon": "",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "livingroommap"
+                      ]
+                    }
+                  }
+                
+                ]
+              }
+            },
+            {
+              "title": "Zoom",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  
+                   {
+                    "title": "Living Room",
+                    "icon": "",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "livingroommap"
+                          ],
+                          "min_height": 832
+                        }
+                      ]
+                    }
+                  }
+                  
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

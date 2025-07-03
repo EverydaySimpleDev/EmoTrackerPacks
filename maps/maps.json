@@ -3,42 +3,54 @@
     "name": "backyardmap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/backyard_day.png"
+    "img": "images/maps/backyard_no_icon_night.png"
   },
   {
     "name": "basementmap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/basment_day.png"
+    "img": "images/maps/basement_no_icon_night.png"
   },
   {
     "name": "livingroommap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/living_room_day.png"
+    "img": "images/maps/living_room_no_icon_night.png"
   },
   {
     "name": "foyermap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/foyer_day.png"
+    "img": "images/maps/foyer_no_icon_night.png"
   },
   {
     "name": "foyer2fmap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/foyer_2f_day.png"
+    "img": "images/maps/foyer_2f_no_icon_night.png"
   },
   {
     "name": "jennysroommap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/jennys_room_day.png"
+    "img": "images/maps/jennys_room_no_icon_night.png"
   },
   {
     "name": "kitchenmap",
     "location_size": 20,
     "location_border_thickness": 1,
-    "img": "images/maps/kitchen_day.png"
+    "img": "images/maps/kitchen_no_icon_night.png"
+  },
+  {
+    "name": "drainmap",
+    "location_size": 20,
+    "location_border_thickness": 1,
+    "img": "images/maps/drain_no_icon_night.png"
+  },
+  {
+    "name": "bedroommap",
+    "location_size": 20,
+    "location_border_thickness": 1,
+    "img": "images/maps/bed_room_no_icon_night.png"
   }
 ]

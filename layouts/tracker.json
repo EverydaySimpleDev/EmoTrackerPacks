@@ -11,18 +11,19 @@
         "content": [
           {
             "type": "itemgrid",
-            "item_margin": "6,1",
+            "item_margin": "8,1",
             "h_alignment": "left",
             "rows": [
               [
-                "frog_rings",
+                "multiworld_item",
                 "tooth_brush",
                 "squirter",
                 "spoon",
                 "mug",
                 "radar",
                 "blaster",
-                "snorkel"
+                "copter",
+                "suit_drake"
               ],
               [
                 "toy_receipt",
@@ -32,7 +33,8 @@
                 "chibi_battery",
                 "gigabattery",
                 "giga_charger",
-                "giga_left_leg"
+                "giga_left_leg",
+                "suit_frog"
               ],
               [
                 "army_photo",
@@ -42,37 +44,41 @@
                 "space_scrambler",
                 "a_a_battery",
                 "c_battery",
-                "d_battery"
+                "d_battery",
+                "suit_ghost"
               ],
               [
-                "red_block",
-                "green_block",
-                "white_block",
-                "blue_block",
-                "yellow_block",
-                "purple_block",
-                "",
-                ""
-              ],
-              [
-                "red_crayon",
-                "yellow_crayon",
-                "green_crayon",
-                "purple_crayon",
-                "dog_tags",
-                "bandage",
-                "",
-                ""
-              ],
-              [
-                "passed_out_frog",
+                "red_block",         
+                "green_block",    
+                "white_block",  
+                "blue_block",       
+                "yellow_block",               
+                "purple_block",     
+                "passed_out_frog",   
                 "dinah_teeth",
-                "red_shoe",
-                "scurvy_splinter",
+                "suit_pajama"
+              ],
+              [
+                "red_crayon",        
+                "yellow_crayon",  
+                "green_crayon", 
+                "purple_crayon",    
+                "dog_tags",                   
+                "bandage",          
+                "red_shoe",          
                 "dads_wedding_band",
-                "",
-                "",
-                ""
+                "suit_toa"
+              ],
+              [
+                "scarvey_splinter",
+                "snorkle",
+                "divorce",
+                "living_room_bridge",
+                "foyer_ladder",
+                "kitchen_ladder",
+                "living_room_ladder",
+                "kitchen_bridge",
+                "suit_trama"
               ]
             ]
           }
@@ -139,8 +145,105 @@
                           "type": "map",
                           "maps": [
                             "livingroommap"
-                          ],
-                          "min_height": 832
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Kitchen",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "kitchenmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Drain",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "drainmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foyer",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "foyermap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foyer 2F",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "foyer2fmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Basement",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "basementmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Jenny's Room",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "jennysroommap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bed Room",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "bedroommap"
+                          ]
                         }
                       ]
                     }
@@ -194,18 +297,98 @@
         {
           "type": "tabbed",
           "tabs": [
-			{
+			      {
               "title": "Fit",
               "content": {
                 "type": "tabbed",
                 "tabs": [
                   {
                     "title": "Living Room",
-                    "icon": "",
+                    "icon": "images/sun.png",
                     "content": {
                       "type": "map",
                       "maps": [
                         "livingroommap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Kitchen",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "kitchenmap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Drain",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "drainmap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Backyard",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "backyardmap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foyer",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "foyermap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foyer 2F",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "foyer2fmap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Basement",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "basementmap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Jenny's Room",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "jennysroommap"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bed Room",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "bedroommap"
                       ]
                     }
                   }
@@ -218,10 +401,9 @@
               "content": {
                 "type": "tabbed",
                 "tabs": [
-                  
-                   {
+                  {
                     "title": "Living Room",
-                    "icon": "",
+                    "icon": "images/sun.png",
                     "content": {
                       "type": "scroll",
                       "content": [
@@ -229,8 +411,129 @@
                           "type": "map",
                           "maps": [
                             "livingroommap"
-                          ],
-                          "min_height": 832
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Kitchen",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "kitchenmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  
+                  {
+                    "title": "Drain",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "drainmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  
+                  {
+                    "title": "Backyard",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "backyardmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foyer",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "foyermap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Foyer 2F",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "foyer2fmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Basement",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "basementmap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Jenny's Room",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "jennysroommap"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bed Room",
+                    "icon": "images/sun.png",
+                    "content": {
+                      "type": "scroll",
+                      "content": [
+                        {
+                          "type": "map",
+                          "maps": [
+                            "bedroommap"
+                          ]
                         }
                       ]
                     }

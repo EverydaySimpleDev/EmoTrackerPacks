@@ -5,11 +5,11 @@
       "name": "Chibi Robo Unpluged Randomizer Map Tracker",
       "author": "EverydaySimpleDev",
       "game_name": "Chibi Robo Unpluged",
-      "version": "1.0.0.50",
+      "version": "1.0.0.00",
       "flags": [ "map" ],
       "required_app_version": "2.3.0.0",
       "uid": "chibirobounplugedrando",
-      "link": "https://github.com/EverydaySimpleDev/EmoTrackerPacks"
+      "link": "https://github.com/EverydaySimpleDev/EmoTrackerPacks/chibirobounplugedrando.zip"
     }
   ]
 }

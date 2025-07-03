@@ -13,39 +13,45 @@
             "always_allow_chest_manipulation": true,
             "children": [
               {
-                "name": "Living_Room_Frog_Ring_Behind_Window",
+                "name": "Living Room - Frog Ring Behind Window",
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "livingroommap",
-                    "x": 816,
-                    "y": 367
+                    "x": 580, 
+                    "y": 790
                   }
                 ]
               },
               {
-                "name": "Living_Room_Frog_Ring_Corkboard",
+                "name": "Living Room - Frog Ring Corkboard",
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,living_room_bridge,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "livingroommap",
-                    "x": 816,
-                    "y": 367
+                    "x": 420,
+                    "y": 935
                   }
                 ]
               },
               {
-                "name": "Living_Room_Frog_Ring_Shelf",
+                "name": "Living Room - Frog Ring Shelf",
                 "sections": [
                   {
                     "name": "Item",
@@ -55,12 +61,3800 @@
                 "map_locations": [
                   {
                     "map": "livingroommap",
-                    "x": 816,
-                    "y": 367
+                    "x": 790,
+                    "y": 840
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Table 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 770,
+                    "y": 567
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Under Bookshelf 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 520,
+                    "y": 790
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Under TV 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 710,
+                    "y": 800
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Bookshelf 10M Coin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 510,
+                    "y": 820
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Bookshelf 10M Coin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 530,
+                    "y": 820
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Armchair 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 420,
+                    "y": 450
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Under Couch 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 600,
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Backseat 10M Coin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 680,
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Backseat 10M Coin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 690,
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Backseat 10M Coin C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 700,
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cupholder 50M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 580,
+                    "y": 400
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Plant Shelf 50M A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,living_room_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1090,
+                    "y": 70
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Plant Shelf 50M B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,living_room_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1080,
+                    "y": 70
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Plant Leaf 50M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 950,
+                    "y": 200
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper by Trashbin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1025,
+                    "y": 270
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper by Trashbin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1025,
+                    "y": 400
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Candy Wrapper above Trashbin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1105,
+                    "y": 220
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cupholder Wastepaper",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 550,
+                    "y": 400
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cookie Crumbs under Table",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 660,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cookie Crumbs by Record Player",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 370,
+                    "y": 170
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Toothbrush",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 740,
+                    "y": 450
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Armchair Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 540,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Bookshelf Happy Block (Lower)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 530,
+                    "y": 790
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Bookshelf Happy Block (Upper)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 510,
+                    "y": 870
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Plant Shelf Happy Block (Lower)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1030,
+                    "y": 125
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Top of Record Player Shelving Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 235,
+                    "y": 130
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Grandfather Clock Shelving Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1135,
+                    "y": 700
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Happy Block above Chibi House",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 190,
+                    "y": 580
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Plant Shelf Happy Block (Upper)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,living_room_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1130,
+                    "y": 40
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Happy Block above Fireplace",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,living_room_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 295,
+                    "y": 890
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Happy Block by Record Player",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 250,
+                    "y": 160
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper by Door to Kitchen",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 250,
+                    "y": 280
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Fireplace Wastepaper A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 300,
+                    "y": 750
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Fireplace Wastepaper B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 300,
+                    "y": 740
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper on Stack of Books",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 450,
+                    "y": 520
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Wastepaper B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 680,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Armchair 50M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 470,
+                    "y": 520
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Lamp 50M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 470,
+                    "y": 190
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper by Toothbrush Spawn",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 780,
+                    "y": 420
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper below Cupholder",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 580,
+                    "y": 430
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Wastepaper A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 800,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cookie Crumbs under Couch",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 650,
+                    "y": 350
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cookie Crumbs on Couch",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 640,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Twig A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 580,
+                    "y": 200
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Twig B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 560,
+                    "y": 200
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Twig C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 580,
+                    "y": 180
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - 50M Coin on top of Chibi House",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "living_room_ladder,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 245,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch 10M Coin (Below Left Armrest)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 825,
+                    "y": 350
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - 10M Coin behind Grandfather Clock Shelving A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1100,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - 10M Coin behind Grandfather Clock Shelving B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1100,
+                    "y": 520
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - 10M Coin behind Grandfather Clock Shelving C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1100,
+                    "y": 540
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper above Trashbin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1100,
+                    "y": 180
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Wastepaper above Trashbin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1090,
+                    "y": 160
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Candy Wrapper above Trashbin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1090,
+                    "y": 160
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Candy Wrapper by Jenny A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 750,
+                    "y": 600
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Candy Wrapper by Jenny B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 780,
+                    "y": 610
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Candy Wrapper",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 780,
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Candy Wrapper on Book Stack",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 470,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Armchair Candy Wrapper A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 490,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Armchair Candy Wrapper B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 515,
+                    "y": 470
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Cupholder Candy Wrapper",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 565,
+                    "y": 410
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Couch Candy Bag",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 740,
+                    "y": 300
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Table Cookie Box A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 740,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Table Cookie Box B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 770,
+                    "y": 500
                   }
                 ]
               }
 			  
+            ]
+          }, 
+          {
+            "name": "Kitchen",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children": [
+              {
+                "name": "Kitchen - Mug Location",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 360, 
+                    "y": 620
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Spoon Location",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 360, 
+                    "y": 380
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Wastepaper by Foyer Door",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 880, 
+                    "y": 900
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Wastepaper under Counter",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 600, 
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Crumbs by Tao's Bowl",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 500, 
+                    "y": 360
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Crumbs by Spoon",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 380, 
+                    "y": 380
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Crumbs on Kitchen - Table",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 640, 
+                    "y": 530
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Crumbs next to Fridge on Counter",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 550, 
+                    "y": 880
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Table Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_bridge,blaster,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 680, 
+                    "y": 580
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cabinet Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 930, 
+                    "y": 690
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Happy Block above Bandage",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 430, 
+                    "y": 950
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Happy Block by Bridge-Only Chibi-Door",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_bridge,blaster"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 930, 
+                    "y": 160
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Twig A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 580, 
+                    "y": 100
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Twig B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 560, 
+                    "y": 120
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Twig C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 560, 
+                    "y": 100
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Dog Tags Location",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 400, 
+                    "y": 100
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Bandage Location",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder,blaster,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 410, 
+                    "y": 950
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Frog Ring Table",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 740, 
+                    "y": 600
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Pink Soda Can",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 790, 
+                    "y": 860
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Purple Soda Can",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 800, 
+                    "y": 880
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Table Candy Wrapper A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 670, 
+                    "y": 650
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Table Candy Wrapper B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 650, 
+                    "y": 630
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Table Candy Bag",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_bridge,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 720, 
+                    "y": 570
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Box by Spoon A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 360, 
+                    "y": 340
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Box by Spoon B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 380, 
+                    "y": 340
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - High Cupboard 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "kitchen_ladder,blaster,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 320, 
+                    "y": 360
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - 10M Coin by Stove",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 580, 
+                    "y": 950
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - 10M Coin by Sink",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 350, 
+                    "y": 400
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - 10M behind Bottles",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 350, 
+                    "y": 300
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Drain",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children":[
+              {
+                "name": "Sink Drain - Middle Row 100M Coin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 500, 
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Middle Row 100M Coin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 530, 
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Middle Row 100M Coin C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 560, 
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Middle Row 10M Coin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 470, 
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Middle Row 10M Coin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 440, 
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Middle Row 10M Coin C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 410, 
+                    "y": 320
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Top Row 100M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 185, 
+                    "y": 240
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Top Row 10M Coin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 215, 
+                    "y": 240
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Top Row 10M Coin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 245, 
+                    "y": 245
+                  }
+                ]
+              },
+              {
+                "name": "Sink Drain - Frog Ring",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter,blaster"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "drainmap",
+                    "x": 390, 
+                    "y": 450
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Foyer",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children":[
+              {     
+                "name": "Foyer - Top of Stairs 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter,foyer_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 400, 
+                    "y": 450
+                  }
+                ]
+              },
+              {     
+                "name": "Foyer - Free Rangers Photo",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 810, 
+                    "y": 380
+                  }
+                ]
+              },
+              {     
+                "name": "Foyer - Waterfall Frog Ring",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter,foyer_ladder,blaster"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 1100, 
+                    "y": 800
+                  }
+                ]
+              },
+              {     
+                "name": "Foyer - Red Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "copter,foyer_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 510, 
+                    "y": 780
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Basement",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children":[
+              {     
+                "name": "Basement - Giga-Battery",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 410, 
+                    "y": 680
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Giga-Charger",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 630, 
+                    "y": 720
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Wine Bottle A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 850, 
+                    "y": 250
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Wine Bottle B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 700, 
+                    "y": 340
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Wastepaper below Dresser",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 790, 
+                    "y": 600
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Wastepaper below Stairs",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 680, 
+                    "y": 340
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Wastepaper on Stairs",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 700, 
+                    "y": 230
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Wastepaper on Shelf",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 700, 
+                    "y": 760
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Broken Bottle Bottom",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 800, 
+                    "y": 260
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Broken Bottle Top",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 820, 
+                    "y": 240
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Gunpowder",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 940, 
+                    "y": 540
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Frog Ring",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 380, 
+                    "y": 160
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Purple Can",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 780, 
+                    "y": 750
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Cabinet Trash A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 880, 
+                    "y": 600
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Cabinet Trash B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 860, 
+                    "y": 600
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Shelf Happy Block A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 735, 
+                    "y": 840
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Shelf Happy Block B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 780, 
+                    "y": 840
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Rafters Happy Block B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 440, 
+                    "y": 700
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Rafters Happy Block A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 990, 
+                    "y": 300
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Stairs Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 760, 
+                    "y": 280
+                  }
+                ]
+              },
+              {     
+                "name": "Basement - Swing 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,copter,mug,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "basementmap",
+                    "x": 860, 
+                    "y": 380
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Backyard",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children":[
+              {     
+                "name": "Backyard - Twig by Glass Door",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 890, 
+                    "y": 720
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Twig by Fence",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 1180, 
+                    "y": 550
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Twig under Tree",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 250, 
+                    "y": 400
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Twig under Awning",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 600, 
+                    "y": 680
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Scurvy Splinter",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,spoon"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 400, 
+                    "y": 550
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Weeds A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 980, 
+                    "y": 430
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Weeds B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 1000, 
+                    "y": 410
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Weeds C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 1000, 
+                    "y": 460
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Frog Ring",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 480, 
+                    "y": 350
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Right Awning Happy Block C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,frog_suit,squirter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 1000, 
+                    "y": 800
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Right Awning Happy Block B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,frog_suit,squirter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 1050, 
+                    "y": 820
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Right Awning Happy Block A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,frog_suit,squirter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 1050, 
+                    "y": 820
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Left Awning Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,frog_suit,squirter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 800, 
+                    "y": 820
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - Tree Happy Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 200, 
+                    "y": 400
+                  }
+                ]
+              },
+              {     
+                "name": "Backyard - White Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "blaster,charge_chip,copter,frog_suit,squirter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 950, 
+                    "y": 660
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Jennys Room",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children":[
+              {     
+                "name": "Jenny's Room - AA Battery",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,red_shoe,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 890, 
+                    "y": 200
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Happy Block by TV",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 680, 
+                    "y": 380
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Happy Block on Train Shelf B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 240, 
+                    "y": 80
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Happy Block on Chair",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 930, 
+                    "y": 510
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Happy Block on Bookshelf",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 560, 
+                    "y": 870
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Happy Block on Train Shelf A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 290, 
+                    "y": 850
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - D Battery",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,red_shoe,blster,copter,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 590, 
+                    "y": 190
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - C Battery",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,red_shoe,blster,copter,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 790, 
+                    "y": 180
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Wastepaper by Trashcan",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 860, 
+                    "y": 740
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Wastepaper by Piano",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 830, 
+                    "y": 250
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Wastepaper under Dresser",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 320, 
+                    "y": 350
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - All Trash Under Bed",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 400, 
+                    "y": 600
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Wastepaper by Crayon Box",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 1000, 
+                    "y": 450
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Red Shoe",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 350, 
+                    "y": 200
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Frog Ring",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 320, 
+                    "y": 280
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Squirter",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 640, 
+                    "y": 460
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Snorkel",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 300, 
+                    "y": 250
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Cookie Crumbs by Chair",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 920, 
+                    "y": 620
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Cookie Crumbs on Desk A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 1000, 
+                    "y": 590
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Cookie Crumbs B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 1000, 
+                    "y": 580
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Candy Wrapper on Bed A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 360, 
+                    "y": 640
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Candy Wrapper on Bed B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380, 
+                    "y": 500
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Candy Wrapper by TV",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 680, 
+                    "y": 460
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Candy Wrapper by Crayon Box A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 1000, 
+                    "y": 480
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Candy Wrapper by Crayon Box B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 1000, 
+                    "y": 400
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Candy Bag on Bed",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 360, 
+                    "y": 500
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Cookie Box on Desk",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 1000, 
+                    "y": 610
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Red Crayon",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 940, 
+                    "y": 480
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Yellow Crayon",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 570, 
+                    "y": 800
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Green Crayon",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 400, 
+                    "y": 600
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Purple Crayon",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 660, 
+                    "y": 870
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Green Block",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 320, 
+                    "y": 210
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Stool 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 590, 
+                    "y": 610
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Bed Railing 10M Coin B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 480, 
+                    "y": 670
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Bed Railing 10M Coin A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 480, 
+                    "y": 470
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - Slide 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 340, 
+                    "y": 750
+                  }
+                ]
+              },
+              {     
+                "name": "Jenny's Room - 10M Coin under Castle",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 780, 
+                    "y": 230
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Bed Room",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children":[
+              {     
+                "name": "Bedroom - Dinahs Teeth",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,frog_suit"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 440, 
+                    "y": 420
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Left Leg in Suitcase",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,ear_chip"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 340, 
+                    "y": 360
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Ticket Stub",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 300, 
+                    "y": 500
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Passed-Out Frog",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,frog_suit"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 460, 
+                    "y": 420
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper by Bills B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 180, 
+                    "y": 420
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper by Bills A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 190, 
+                    "y": 430
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper under Bed",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 300, 
+                    "y": 230
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper under Vanity",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 500, 
+                    "y": 350
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper on Vanity",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 520, 
+                    "y": 350
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper on Bed",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 180, 
+                    "y": 380
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper by Dinahs Place A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 560, 
+                    "y": 270
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Wastepaper by Dinahs Place B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 560, 
+                    "y": 250
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Cookie Crumbs on Toybox",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 200, 
+                    "y": 420
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Vanity Candy Wrapper A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 500, 
+                    "y": 420
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Vanity Candy Wrapper B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 500, 
+                    "y": 440
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Shelf Candy Wrapper",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 160, 
+                    "y": 550
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Vanity Candy Bag",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 500, 
+                    "y": 400
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Happy Block by Ticket Stub (Lower Shelf)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 350, 
+                    "y": 500
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Happy Block by Ticket Stub (Higher Shelf)",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 260, 
+                    "y": 500
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - Vanity Stool 10M Coin",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 500, 
+                    "y": 250
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - 10M Coin by Dinahs Place",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 540, 
+                    "y": 400
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - 10M Coin under Bed",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 150, 
+                    "y": 400
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - 10M Coin on Nightstand",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug,copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 120, 
+                    "y": 440
+                  }
+                ]
+              },
+              {     
+                "name": "Bedroom - 10M Coin on Shelf",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules":[
+                      "foyer_ladder,mug"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 180, 
+                    "y": 560
+                  }
+                ]
+              }
             ]
           }
         ]

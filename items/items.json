@@ -6,7 +6,7 @@
     "img": "images/items/frog_ring.png",
     "min_quantity": 0,
     "max_quantity": 10,
-	"display_as_fraction_of_max": true,
+	  "display_as_fraction_of_max": true,
     "codes": "frog_rings"
   },
   {
@@ -36,6 +36,13 @@
     "loop": "true",
     "img": "images/items/mug.png",
     "codes": "mug"
+  },
+  {
+    "name": "Copter",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/copter.png",
+    "codes": "copter"
   },
   {
     "name": "Toy Receipt",
@@ -83,15 +90,18 @@
     "name": "Giga Battery",
     "type": "progressive",
     "allow_disabled": "false",
-    "loop": "true",
     "stages": [
       {
-        "img": "images/items/uncharged_giga_battery.png"
+        "img": "images/items/uncharged_giga_battery.png",
+        "img_mods": "@disabled"
+      },
+      {
+        "img": "images/items/uncharged_giga_battery.png",
+        "codes": "gigabattery"
       },
       {
         "img": "images/items/charged_giga_battery.png",
-        "img_mods": "@disabled",
-        "codes": "gigabattery,g4"
+        "codes": "gigabatterycharged"
       }
     ]
   },
@@ -246,8 +256,8 @@
     "name": "Scurvy Splinter",
     "type": "toggle",
     "loop": "true",
-    "img": "images/items/scurvy_splinter.png",
-    "codes": "scurvy_splinter"
+    "img": "images/items/scarvey_splinter.png",
+    "codes": "scarvey_splinter"
   },
   {
     "name": "Chibi Radar",
@@ -264,11 +274,11 @@
     "codes": "blaster"
   },
   {
-    "name": "Snorkel",
+    "name": "Snorkle",
     "type": "toggle",
     "loop": "true",
-    "img": "images/items/snorkel.png",
-    "codes": "snorkel"
+    "img": "images/items/snorkle.png",
+    "codes": "snorkle"
   },
   {
     "name": "AA Battery",
@@ -295,8 +305,99 @@
     "name": "Dads Wedding Ring",
     "type": "toggle",
     "loop": "true",
-    "img": "images/items/dads_wedding_band.png",
+    "img": "images/items/dad_wedding_band.png",
     "codes": "dads_wedding_band"
+  },
+  {
+    "name": "Mom Letter / Divorce",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/divorce_letter.png",
+    "codes": "divorce"
+  },
+  {
+    "name": "MultiWorld Item",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/multiworld_item.png",
+    "codes": "multiworld_item"
+  },
+  {
+    "name": "Drake Redcrest Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/suits/suit_drake.png",
+    "codes": "suit_drake"
+  },
+  {
+    "name": "Frog Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/suits/suit_frog.png",
+    "codes": "suit_frog"
+  },
+  {
+    "name": "Ghost Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/suits/suit_ghost.png",
+    "codes": "suit_ghost"
+  },
+  {
+    "name": "Pajama Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/suits/suit_pajamas.png",
+    "codes": "suit_pajama"
+  },
+  {
+    "name": "Toa Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/suits/suit_toa.png",
+    "codes": "suit_toa"
+  },
+  {
+    "name": "Trama Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/suits/suit_trama.png",
+    "codes": "suit_trama"
+  },
+  {
+    "name": "Foyer Ladder",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/ladder_on.png",
+    "codes": "foyer_ladder"
+  },
+  {
+    "name": "Kitchen Ladder",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/ladder_on.png",
+    "codes": "kitchen_ladder"
+  },
+  {
+    "name": "Kitchen Bridge",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/ladder_on.png",
+    "codes": "kitchen_bridge"
+  },
+  {
+    "name": "Living Room Ladder",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/ladder_on.png",
+    "codes": "living_room_ladder"
+  },
+  {
+    "name": "Living Room Bridge",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/items/ladder_on.png",
+    "codes": "living_room_bridge"
   }
   
 ]

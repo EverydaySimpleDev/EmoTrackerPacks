@@ -2,7 +2,7 @@
 
 EmoTracker pack for Chibi Robo Unpluged
 
-Super Metroid Redesign Randomizer: https://github.com/EverydaySimpleDev/Chibi-Robo-Randomizer
+Chibi Robo Unplug Randomizer: https://github.com/EverydaySimpleDev/Chibi-Robo-Randomizer
 
 Get EmoTracker here: https://emotracker.net/
 

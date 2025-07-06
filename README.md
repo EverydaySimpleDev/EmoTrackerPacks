@@ -6,6 +6,8 @@ Chibi Robo Unplug Randomizer: https://github.com/EverydaySimpleDev/Chibi-Robo-Ra
 
 Get EmoTracker here: https://emotracker.net/
 
+PopTracker Support (Not Fully Supported Yet): https://github.com/black-sliver/PopTracker/tree/master
+
 ## Installation
 
 Get it on emotracker! No crazy install!

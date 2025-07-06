@@ -15,12 +15,72 @@
             "h_alignment": "left",
             "item_size": 64,
             "rows": [
-              [ "frog_rings",        "tooth_brush",   "squirter",     "spoon",             "mug",                        "radar",            "blaster",           "copter",            "suit_drake" ],
-              [ "toy_receipt",       "charge_chip",   "range_chip",    "ear_chip",         "chibi_battery",              "gigabattery",      "giga_charger",      "giga_left_leg",     "suit_frog"  ],
-              [ "army_photo",        "ticket_stub",    "gunpower",     "hot_rod",          "space_scrambler",            "a_a_battery",      "c_battery",         "d_battery",         "suit_ghost"  ],
-              [ "red_block",         "green_block",    "white_block",  "blue_block",       "yellow_block",               "purple_block",     "passed_out_frog",   "dinah_teeth",       "suit_pajama"  ],
-              [ "red_crayon",        "yellow_crayon",  "green_crayon", "purple_crayon",    "dog_tags",                   "bandage",          "red_shoe",          "dads_wedding_band", "suit_toa"  ],
-              [ "scurvy_splinter",   "snorkle",        "divorce",      "multiworld_item",  "foyer_ladder",               "kitchen_ladder",   "kitchen_bridge",    "living_room_ladder","suit_trama"]
+              [
+                "multiworld_item",
+                "tooth_brush",
+                "squirter",
+                "spoon",
+                "mug",
+                "radar",
+                "blaster",
+                "copter",
+                "suit_drake"
+              ],
+              [
+                "toy_receipt",
+                "charge_chip",
+                "range_chip",
+                "ear_chip",
+                "chibi_battery",
+                "gigabattery",
+                "giga_charger",
+                "giga_left_leg",
+                "suit_frog"
+              ],
+              [
+                "army_photo",
+                "ticket_stub",
+                "gunpower",
+                "hot_rod",
+                "space_scrambler",
+                "a_a_battery",
+                "c_battery",
+                "d_battery",
+                "suit_ghost"
+              ],
+              [
+                "red_block",         
+                "green_block",    
+                "white_block",  
+                "blue_block",       
+                "yellow_block",               
+                "purple_block",     
+                "passed_out_frog",   
+                "dinah_teeth",
+                "suit_pajama"
+              ],
+              [
+                "red_crayon",        
+                "yellow_crayon",  
+                "green_crayon", 
+                "purple_crayon",    
+                "dog_tags",                   
+                "bandage",          
+                "red_shoe",          
+                "dads_wedding_band",
+                "suit_toa"
+              ],
+              [
+                "scarvey_splinter",
+                "snorkle",
+                "divorce",
+                "living_room_bridge",
+                "foyer_ladder",
+                "kitchen_ladder",
+                "living_room_ladder",
+                "kitchen_bridge",
+                "suit_trama"
+              ]
             ]
           }
         ]

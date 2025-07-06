@@ -3,5 +3,13 @@
   "game_name": "Chibi Robo Unpluged",
   "package_version": "1.0.0.0",
   "package_uid": "chibirobounplugedrando",
-  "author": "EverydaySimpleDev"
+  "author": "EverydaySimpleDev",
+  "variants": {
+		"standard": {
+			"display_name": "Chibi Robo Multiworld",
+			"flags": [
+			    "ap" 
+			]
+		}
+	}
 }

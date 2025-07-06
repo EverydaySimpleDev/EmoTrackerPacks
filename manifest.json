@@ -5,6 +5,9 @@
   "package_uid": "chibirobounplugedrando",
   "author": "EverydaySimpleDev",
   "variants": {
+		"default": {
+			"display_name": "Chibi Robo Tracker"
+		},
 		"standard": {
 			"display_name": "Chibi Robo Multiworld",
 			"flags": [

@@ -1,0 +1,55 @@
+-- use this file to map the AP item ids to your items
+-- first value is the code of the target item and the second is the item type (currently only "toggle", "progressive" and "consumable" but feel free to expand for your needs!)
+-- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
+ITEM_MAPPING = {
+    [2322432] = {"tooth_brush", "toggle"},
+    [2322433] = {"spoon", "toggle"},
+    [2322434] = {"mug", "toggle"},
+    [2322435] = {"blaster", "toggle"},
+    [2322436] = {"squirter", "toggle"},
+    [2322437] = {"range_chip", "toggle"},
+    [2322438] = {"ear_chip", "toggle"},
+    [2322439] = {"charge_chip", "toggle"},
+    [2322440] = {"gigabattery", "progressive"},
+    [2322441] = {"giga_charger", "toggle"},
+    [2322442] = {"giga_left_leg", "toggle"},
+    [2322443] = {"toy_receipt", "toggle"},
+    [2322444] = {"dads_wedding_band", "toggle"},
+    [2322445] = {"c_battery", "toggle"},
+    [2322446] = {"a_a_battery", "toggle"},
+    [2322447] = {"d_battery", "toggle"},
+    [2322448] = {"red_shoe", "toggle"},
+    [2322449] = {"green_crayon", "toggle"},
+    [2322450] = {"red_crayon", "toggle"},
+    [2322451] = {"purple_crayon", "toggle"},
+    [2322452] = {"space_scrambler", "toggle"},
+    [2322453] = {"chibi_battery", "toggle"},
+    [2322454] = {"dinah_teeth", "toggle"},
+    [2322455] = {"scarvey_splinter", "toggle"},
+    [2322456] = {"red_block", "toggle"},
+    [2322457] = {"radar", "toggle"},
+    [2322458] = {"ticket_stub", "toggle"},
+    [2322459] = {"frog_rings", "toggle"}, -- Foyer Waterfall Frog Ring
+    [2322460] = {"frog_rings", "toggle"}, -- Basement Frog Ring
+    [2322461] = {"frog_rings", "toggle"}, -- Backyard Frog Ring
+    [2322462] = {"frog_rings", "toggle"}, -- Jenny's Room Frog Ring
+    [2322463] = {"frog_rings", "toggle"}, -- Living Room Frog Ring (Behind Window)
+    [2322464] = {"frog_rings", "toggle"}, -- Living Room Frog Ring (Corkboard)
+    [2322465] = {"frog_rings", "toggle"}, -- Living Room Frog Ring (Shelf)
+    [2322466] = {"frog_rings", "toggle"}, --  Kitchen Frog Ring (Table)
+    [2322467] = {"frog_rings", "toggle"}, -- Sink Drain Frog Ring
+    [2322468] = {"Green Brick", "toggle"},
+    [2322469] = {"green_block", "toggle"},
+    [2322470] = {"yellow_block", "toggle"},
+    [2322471] = {"purple_block", "toggle"},
+    [2322472] = {"bandage", "toggle"},
+    [2322473] = {"dog_tags", "toggle"},
+    [2322474] = {"hot_rod", "toggle"},
+    [2322475] = {"gunpower", "toggle"},
+    [2322476] = {"army_photo", "toggle"},
+    [2322477] = {"passed_out_frog", "toggle"},
+    [2322478] = {"yellow_crayon", "toggle"},
+    [2322479] = {"snorkel", "toggle"},
+    [2322665] = {"blue_block", "toggle"},
+    [2322666] = {"space_scrambler", "toggle"}
+}

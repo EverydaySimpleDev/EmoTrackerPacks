@@ -1,7 +1,6 @@
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true
-AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true
+AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = false
 
 ScriptHost:LoadScript("scripts/pop_tracker_ap_autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/pop_tracker_ap_autotracking/location_mapping.lua")
@@ -171,10 +170,11 @@ function onLocation(location_id, location_name)
 
 
 	for _, w in ipairs(v) do
+
+        w = w .. "/Item"
 		local obj = Tracker:FindObjectForCode(w)
 		if obj then
 			if w:sub(1, 1) == "@" then
-                print(w)
                 obj.AvailableChestCount = 0
 				-- obj.AvailableChestCount = obj.AvailableChestCount - 1
 			elseif obj.Type == "progressive" then

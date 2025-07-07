@@ -1,10 +1,10 @@
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
-AUTOTRACKER_ENABLE_LOCATION_TRACKING = false
+AUTOTRACKER_ENABLE_LOCATION_TRACKING = true
 AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true
 
 ScriptHost:LoadScript("scripts/pop_tracker_ap_autotracking/item_mapping.lua")
--- ScriptHost:LoadScript("scripts/pop_tracker_ap_autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/pop_tracker_ap_autotracking/location_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -168,12 +168,15 @@ function onLocation(location_id, location_name)
     if not v[1] then
         return
     end
+
+
 	for _, w in ipairs(v) do
-		print(w)
 		local obj = Tracker:FindObjectForCode(w)
 		if obj then
 			if w:sub(1, 1) == "@" then
-				obj.AvailableChestCount = obj.AvailableChestCount - 1
+                print(w)
+                obj.AvailableChestCount = 0
+				-- obj.AvailableChestCount = obj.AvailableChestCount - 1
 			elseif obj.Type == "progressive" then
 				obj.CurrentStage = obj.CurrentStage + 1
 			else

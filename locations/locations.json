@@ -18,15 +18,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,blaster"
-                    ]
+                    "access_rules": ["living_room_ladder,blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "livingroommap",
-                    "x": 580, 
+                    "x": 580,
                     "y": 790
                   }
                 ]
@@ -37,7 +35,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
+                    "access_rules": [
                       "living_room_ladder,living_room_bridge,copter"
                     ]
                   }
@@ -72,9 +70,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -123,9 +119,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -142,9 +136,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -193,9 +185,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -212,9 +202,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -231,9 +219,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -250,9 +236,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -269,7 +253,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
+                    "access_rules": [
                       "living_room_ladder,living_room_bridge,copter"
                     ]
                   }
@@ -288,7 +272,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
+                    "access_rules": [
                       "living_room_ladder,living_room_bridge,copter"
                     ]
                   }
@@ -307,9 +291,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -374,9 +356,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -457,9 +437,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -476,9 +454,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -495,9 +471,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -514,9 +488,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -533,9 +505,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -552,9 +522,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -571,7 +539,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
+                    "access_rules": [
                       "living_room_ladder,living_room_bridge,copter"
                     ]
                   }
@@ -590,7 +558,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
+                    "access_rules": [
                       "living_room_ladder,living_room_bridge,copter"
                     ]
                   }
@@ -689,9 +657,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -724,9 +690,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -775,9 +739,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -810,9 +772,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -877,9 +837,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "living_room_ladder,copter"
-                    ]
+                    "access_rules": ["living_room_ladder,copter"]
                   }
                 ],
                 "map_locations": [
@@ -896,9 +854,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -1043,9 +999,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -1110,9 +1064,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -1129,9 +1081,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -1148,9 +1098,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -1167,9 +1115,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
@@ -1180,9 +1126,8 @@
                   }
                 ]
               }
-			  
             ]
-          }, 
+          },
           {
             "name": "Kitchen",
             "chest_unopened_img": "images/unopened.png",
@@ -1200,7 +1145,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 360, 
+                    "x": 360,
                     "y": 620
                   }
                 ]
@@ -1211,15 +1156,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder"
-                    ]
+                    "access_rules": ["kitchen_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 360, 
+                    "x": 360,
                     "y": 380
                   }
                 ]
@@ -1235,7 +1178,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 880, 
+                    "x": 880,
                     "y": 900
                   }
                 ]
@@ -1251,7 +1194,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 600, 
+                    "x": 600,
                     "y": 250
                   }
                 ]
@@ -1267,7 +1210,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 360
                   }
                 ]
@@ -1278,15 +1221,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder"
-                    ]
+                    "access_rules": ["kitchen_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 380, 
+                    "x": 380,
                     "y": 380
                   }
                 ]
@@ -1296,16 +1237,13 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1,
-                    "access_rules":[
-                      "kitchen_bridge,copter"
-                    ]
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 640, 
+                    "x": 640,
                     "y": 530
                   }
                 ]
@@ -1321,7 +1259,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 550, 
+                    "x": 550,
                     "y": 880
                   }
                 ]
@@ -1331,16 +1269,13 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1,
-                    "access_rules":[
-                      "kitchen_bridge,blaster,copter"
-                    ]
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 680, 
+                    "x": 680,
                     "y": 580
                   }
                 ]
@@ -1351,15 +1286,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 930, 
+                    "x": 930,
                     "y": 690
                   }
                 ]
@@ -1370,15 +1303,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder"
-                    ]
+                    "access_rules": ["kitchen_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 430, 
+                    "x": 430,
                     "y": 950
                   }
                 ]
@@ -1389,15 +1320,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_bridge,blaster"
-                    ]
+                    "access_rules": ["kitchen_bridge"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 930, 
+                    "x": 930,
                     "y": 160
                   }
                 ]
@@ -1413,7 +1342,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 580, 
+                    "x": 580,
                     "y": 100
                   }
                 ]
@@ -1429,7 +1358,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 560, 
+                    "x": 560,
                     "y": 120
                   }
                 ]
@@ -1445,7 +1374,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 560, 
+                    "x": 560,
                     "y": 100
                   }
                 ]
@@ -1461,7 +1390,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 400, 
+                    "x": 400,
                     "y": 100
                   }
                 ]
@@ -1472,15 +1401,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder,blaster,copter"
-                    ]
+                    "access_rules": ["kitchen_ladder,blaster,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 410, 
+                    "x": 410,
                     "y": 950
                   }
                 ]
@@ -1491,15 +1418,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter"
-                    ]
+                    "access_rules": ["blaster,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 740, 
+                    "x": 740,
                     "y": 600
                   }
                 ]
@@ -1515,7 +1440,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 790, 
+                    "x": 790,
                     "y": 860
                   }
                 ]
@@ -1531,7 +1456,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 800, 
+                    "x": 800,
                     "y": 880
                   }
                 ]
@@ -1541,16 +1466,13 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1,
-                    "access_rules":[
-                      "kitchen_bridge,copter"
-                    ]
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 670, 
+                    "x": 670,
                     "y": 650
                   }
                 ]
@@ -1560,16 +1482,13 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1,
-                    "access_rules":[
-                      "kitchen_bridge,copter"
-                    ]
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 650, 
+                    "x": 650,
                     "y": 630
                   }
                 ]
@@ -1579,16 +1498,13 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1,
-                    "access_rules":[
-                      "kitchen_bridge,copter"
-                    ]
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 720, 
+                    "x": 720,
                     "y": 570
                   }
                 ]
@@ -1599,15 +1515,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder"
-                    ]
+                    "access_rules": ["kitchen_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 360, 
+                    "x": 360,
                     "y": 340
                   }
                 ]
@@ -1618,15 +1532,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder"
-                    ]
+                    "access_rules": ["kitchen_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 380, 
+                    "x": 380,
                     "y": 340
                   }
                 ]
@@ -1637,15 +1549,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "kitchen_ladder,blaster,copter"
-                    ]
+                    "access_rules": ["kitchen_ladder,blaster,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 320, 
+                    "x": 320,
                     "y": 360
                   }
                 ]
@@ -1661,7 +1571,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 580, 
+                    "x": 580,
                     "y": 950
                   }
                 ]
@@ -1677,7 +1587,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 350, 
+                    "x": 350,
                     "y": 400
                   }
                 ]
@@ -1693,7 +1603,7 @@
                 "map_locations": [
                   {
                     "map": "kitchenmap",
-                    "x": 350, 
+                    "x": 350,
                     "y": 300
                   }
                 ]
@@ -1705,22 +1615,20 @@
             "chest_unopened_img": "images/unopened.png",
             "chest_opened_img": "images/opened.png",
             "always_allow_chest_manipulation": true,
-            "children":[
+            "children": [
               {
                 "name": "Sink Drain - Middle Row 100M Coin A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 320
                   }
                 ]
@@ -1731,15 +1639,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 530, 
+                    "x": 530,
                     "y": 320
                   }
                 ]
@@ -1750,15 +1656,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 560, 
+                    "x": 560,
                     "y": 320
                   }
                 ]
@@ -1769,15 +1673,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 470, 
+                    "x": 470,
                     "y": 320
                   }
                 ]
@@ -1788,15 +1690,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 440, 
+                    "x": 440,
                     "y": 320
                   }
                 ]
@@ -1807,15 +1707,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 410, 
+                    "x": 410,
                     "y": 320
                   }
                 ]
@@ -1826,15 +1724,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 185, 
+                    "x": 185,
                     "y": 240
                   }
                 ]
@@ -1845,15 +1741,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 215, 
+                    "x": 215,
                     "y": 240
                   }
                 ]
@@ -1864,15 +1758,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter"
-                    ]
+                    "access_rules": ["copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 245, 
+                    "x": 245,
                     "y": 245
                   }
                 ]
@@ -1883,15 +1775,13 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter,blaster"
-                    ]
+                    "access_rules": ["copter,blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "drainmap",
-                    "x": 390, 
+                    "x": 390,
                     "y": 450
                   }
                 ]
@@ -1903,79 +1793,71 @@
             "chest_unopened_img": "images/unopened.png",
             "chest_opened_img": "images/opened.png",
             "always_allow_chest_manipulation": true,
-            "children":[
-              {     
+            "children": [
+              {
                 "name": "Foyer - Top of Stairs 10M Coin",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter,foyer_ladder"
-                    ]
+                    "access_rules": ["mug,copter,foyer_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "foyer2fmap",
-                    "x": 400, 
+                    "x": 400,
                     "y": 450
                   }
                 ]
               },
-              {     
+              {
                 "name": "Foyer - Free Rangers Photo",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "foyermap",
-                    "x": 810, 
+                    "x": 810,
                     "y": 380
                   }
                 ]
               },
-              {     
+              {
                 "name": "Foyer - Waterfall Frog Ring",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter,foyer_ladder,blaster"
-                    ]
+                    "access_rules": ["mug,copter,foyer_ladder,blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "foyer2fmap",
-                    "x": 1100, 
+                    "x": 1100,
                     "y": 800
                   }
                 ]
               },
-              {     
+              {
                 "name": "Foyer - Red Block",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "copter,foyer_ladder"
-                    ]
+                    "access_rules": ["mug,copter,foyer_ladder"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "foyermap",
-                    "x": 510, 
+                    "x": 510,
                     "y": 780
                   }
                 ]
@@ -1987,402 +1869,360 @@
             "chest_unopened_img": "images/unopened.png",
             "chest_opened_img": "images/opened.png",
             "always_allow_chest_manipulation": true,
-            "children":[
-              {     
+            "children": [
+              {
                 "name": "Basement - Giga-Battery",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 410, 
+                    "x": 410,
                     "y": 680
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Giga-Charger",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 630, 
+                    "x": 630,
                     "y": 720
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Wine Bottle A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 850, 
+                    "x": 850,
                     "y": 250
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Wine Bottle B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 700, 
+                    "x": 700,
                     "y": 340
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Wastepaper below Dresser",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 790, 
+                    "x": 790,
                     "y": 600
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Wastepaper below Stairs",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 680, 
+                    "x": 680,
                     "y": 340
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Wastepaper on Stairs",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 700, 
+                    "x": 700,
                     "y": 230
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Wastepaper on Shelf",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 700, 
+                    "x": 700,
                     "y": 760
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Broken Bottle Bottom",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 800, 
+                    "x": 800,
                     "y": 260
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Broken Bottle Top",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 820, 
+                    "x": 820,
                     "y": 240
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Gunpowder",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 940, 
+                    "x": 940,
                     "y": 540
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Frog Ring",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 380, 
+                    "x": 380,
                     "y": 160
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Purple Can",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 780, 
+                    "x": 780,
                     "y": 750
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Cabinet Trash A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 880, 
+                    "x": 880,
                     "y": 600
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Cabinet Trash B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 860, 
+                    "x": 860,
                     "y": 600
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Shelf Happy Block A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 735, 
+                    "x": 735,
                     "y": 840
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Shelf Happy Block B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 780, 
+                    "x": 780,
                     "y": 840
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Rafters Happy Block B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 440, 
+                    "x": 440,
                     "y": 700
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Rafters Happy Block A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 990, 
+                    "x": 990,
                     "y": 300
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Stairs Happy Block",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "mug"
-                    ]
+                    "access_rules": ["mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 760, 
+                    "x": 760,
                     "y": 280
                   }
                 ]
               },
-              {     
+              {
                 "name": "Basement - Swing 10M Coin",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,copter,mug,charge_chip"
-                    ]
+                    "access_rules": ["blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 860, 
+                    "x": 860,
                     "y": 380
                   }
                 ]
@@ -2394,288 +2234,258 @@
             "chest_unopened_img": "images/unopened.png",
             "chest_opened_img": "images/opened.png",
             "always_allow_chest_manipulation": true,
-            "children":[
-              {     
+            "children": [
+              {
                 "name": "Backyard - Twig by Glass Door",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 890, 
+                    "x": 890,
                     "y": 720
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Twig by Fence",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 1180, 
+                    "x": 1180,
                     "y": 550
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Twig under Tree",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 250, 
+                    "x": 250,
                     "y": 400
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Twig under Awning",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 600, 
+                    "x": 600,
                     "y": 680
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Scurvy Splinter",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,spoon"
-                    ]
+                    "access_rules": ["blaster,spoon"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 400, 
+                    "x": 400,
                     "y": 550
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Weeds A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 980, 
+                    "x": 980,
                     "y": 430
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Weeds B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 410
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Weeds C",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip"
-                    ]
+                    "access_rules": ["blaster"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 460
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Frog Ring",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,copter"
-                    ]
+                    "access_rules": ["blaster,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 480, 
+                    "x": 480,
                     "y": 350
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Right Awning Happy Block C",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,frog_suit,squirter"
-                    ]
+                    "access_rules": ["blaster,suit_frog,squirter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 800
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Right Awning Happy Block B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,frog_suit,squirter"
-                    ]
+                    "access_rules": ["blaster,suit_frog,squirter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 1050, 
+                    "x": 1050,
                     "y": 820
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Right Awning Happy Block A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,frog_suit,squirter"
-                    ]
+                    "access_rules": ["blaster,suit_frog,squirter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 1050, 
+                    "x": 1050,
                     "y": 820
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Left Awning Happy Block",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,frog_suit,squirter"
-                    ]
+                    "access_rules": ["blaster,suit_frog,squirter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 800, 
-                    "y": 820
+                    "x": 280,
+                    "y": 700
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - Tree Happy Block",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,copter"
-                    ]
+                    "access_rules": ["blaster,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 200, 
+                    "x": 200,
                     "y": 400
                   }
                 ]
               },
-              {     
+              {
                 "name": "Backyard - White Block",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "blaster,charge_chip,copter,frog_suit,squirter"
-                    ]
+                    "access_rules": ["blaster,copter,suit_frog,squirter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "backyardmap",
-                    "x": 950, 
+                    "x": 950,
                     "y": 660
                   }
                 ]
@@ -2687,706 +2497,632 @@
             "chest_unopened_img": "images/unopened.png",
             "chest_opened_img": "images/opened.png",
             "always_allow_chest_manipulation": true,
-            "children":[
-              {     
+            "children": [
+              {
                 "name": "Jenny's Room - AA Battery",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,red_shoe,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,red_shoe,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 890, 
+                    "x": 890,
                     "y": 200
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Happy Block by TV",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 680, 
+                    "x": 680,
                     "y": 380
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Happy Block on Train Shelf B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 240, 
+                    "x": 240,
                     "y": 80
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Happy Block on Chair",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 930, 
+                    "x": 930,
                     "y": 510
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Happy Block on Bookshelf",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 560, 
+                    "x": 560,
                     "y": 870
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Happy Block on Train Shelf A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 290, 
+                    "x": 290,
                     "y": 850
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - D Battery",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,red_shoe,blster,copter,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,red_shoe,blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 590, 
+                    "x": 590,
                     "y": 190
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - C Battery",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,red_shoe,blster,copter,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,red_shoe,blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 790, 
+                    "x": 790,
                     "y": 180
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Wastepaper by Trashcan",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 860, 
+                    "x": 860,
                     "y": 740
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Wastepaper by Piano",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 830, 
+                    "x": 830,
                     "y": 250
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Wastepaper under Dresser",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 320, 
+                    "x": 320,
                     "y": 350
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - All Trash Under Bed",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 400, 
+                    "x": 400,
                     "y": 600
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Wastepaper by Crayon Box",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 450
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Red Shoe",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 350, 
+                    "x": 350,
                     "y": 200
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Frog Ring",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 320, 
+                    "x": 320,
                     "y": 280
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Squirter",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 640, 
+                    "x": 640,
                     "y": 460
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Snorkel",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 300, 
+                    "x": 300,
                     "y": 250
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Cookie Crumbs by Chair",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 920, 
+                    "x": 920,
                     "y": 620
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Cookie Crumbs on Desk A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 590
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Cookie Crumbs B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 580
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Candy Wrapper on Bed A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 360, 
+                    "x": 360,
                     "y": 640
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Candy Wrapper on Bed B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 380, 
+                    "x": 380,
                     "y": 500
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Candy Wrapper by TV",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 680, 
+                    "x": 680,
                     "y": 460
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Candy Wrapper by Crayon Box A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 480
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Candy Wrapper by Crayon Box B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 400
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Candy Bag on Bed",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 360, 
+                    "x": 360,
                     "y": 500
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Cookie Box on Desk",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 1000, 
+                    "x": 1000,
                     "y": 610
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Red Crayon",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 940, 
+                    "x": 940,
                     "y": 480
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Yellow Crayon",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 570, 
+                    "x": 570,
                     "y": 800
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Green Crayon",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 400, 
+                    "x": 400,
                     "y": 600
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Purple Crayon",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 660, 
+                    "x": 660,
                     "y": 870
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Green Block",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 320, 
+                    "x": 320,
                     "y": 210
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Stool 10M Coin",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 590, 
+                    "x": 590,
                     "y": 610
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Bed Railing 10M Coin B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 480, 
+                    "x": 480,
                     "y": 670
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Bed Railing 10M Coin A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 480, 
+                    "x": 480,
                     "y": 470
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - Slide 10M Coin",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 340, 
+                    "x": 340,
                     "y": 750
                   }
                 ]
               },
-              {     
+              {
                 "name": "Jenny's Room - 10M Coin under Castle",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "jennysroommap",
-                    "x": 780, 
+                    "x": 780,
                     "y": 230
                   }
                 ]
@@ -3398,459 +3134,411 @@
             "chest_unopened_img": "images/unopened.png",
             "chest_opened_img": "images/opened.png",
             "always_allow_chest_manipulation": true,
-            "children":[
-              {     
+            "children": [
+              {
                 "name": "Bedroom - Dinahs Teeth",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,frog_suit"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,suit_frog"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 440, 
+                    "x": 440,
                     "y": 420
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Left Leg in Suitcase",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,ear_chip"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,ear_chip"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 340, 
+                    "x": 340,
                     "y": 360
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Ticket Stub",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 300, 
+                    "x": 300,
                     "y": 500
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Passed-Out Frog",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,frog_suit"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,suit_frog"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 460, 
+                    "x": 460,
                     "y": 420
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper by Bills B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 180, 
+                    "x": 180,
                     "y": 420
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper by Bills A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 190, 
+                    "x": 190,
                     "y": 430
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper under Bed",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 300, 
+                    "x": 300,
                     "y": 230
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper under Vanity",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 350
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper on Vanity",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 520, 
+                    "x": 520,
                     "y": 350
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper on Bed",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 180, 
+                    "x": 180,
                     "y": 380
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper by Dinahs Place A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 560, 
+                    "x": 560,
                     "y": 270
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Wastepaper by Dinahs Place B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 560, 
+                    "x": 560,
                     "y": 250
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Cookie Crumbs on Toybox",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 200, 
+                    "x": 200,
                     "y": 420
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Vanity Candy Wrapper A",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 420
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Vanity Candy Wrapper B",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 440
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Shelf Candy Wrapper",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 160, 
+                    "x": 160,
                     "y": 550
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Vanity Candy Bag",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 400
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Happy Block by Ticket Stub (Lower Shelf)",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 350, 
+                    "x": 350,
                     "y": 500
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Happy Block by Ticket Stub (Higher Shelf)",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 260, 
+                    "x": 260,
                     "y": 500
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - Vanity Stool 10M Coin",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 500, 
+                    "x": 500,
                     "y": 250
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - 10M Coin by Dinahs Place",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 540, 
+                    "x": 540,
                     "y": 400
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - 10M Coin under Bed",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 150, 
+                    "x": 150,
                     "y": 400
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - 10M Coin on Nightstand",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug,copter"
-                    ]
+                    "access_rules": ["foyer_ladder,mug,copter"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 120, 
+                    "x": 120,
                     "y": 440
                   }
                 ]
               },
-              {     
+              {
                 "name": "Bedroom - 10M Coin on Shelf",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules":[
-                      "foyer_ladder,mug"
-                    ]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
                   {
                     "map": "bedroommap",
-                    "x": 180, 
+                    "x": 180,
                     "y": 560
                   }
                 ]
@@ -3859,7 +3547,6 @@
           }
         ]
       }
-
     ]
   }
 ]

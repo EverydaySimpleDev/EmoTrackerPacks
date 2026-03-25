@@ -1942,6 +1942,193 @@
                     "y": 210
                   }
                 ]
+              },
+              {
+                "name": "Jenny's Room - Wastepaper under Bed A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 400,
+                    "y": 550
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Wastepaper under Bed B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 400,
+                    "y": 570
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Wastepaper under Bed C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 400,
+                    "y": 580
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Wastepaper under Bed D",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 580
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Cookie Crumbs under Bed A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Cookie Crumbs under Bed B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 580
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Cookie Crumbs under Bed C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 540
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Cookie Crumbs under Bed D",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Candy Bag under Bed",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 600
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Cookie Box under Bed A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 360,
+                    "y": 600
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Cookie Box under Bed B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 360,
+                    "y": 640
+                  }
+                ]
               }
             ]
           },

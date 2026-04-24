@@ -1,12 +1,12 @@
-# Chibi Robo Unpluged: EmoTracker
+# Chibi-Robo! Plug Into Adventure!: EmoTracker
 
-EmoTracker pack for Chibi Robo Unpluged
+EmoTracker pack for Chibi-Robo! Plug Into Adventure!
 
 Chibi Robo Unplug Randomizer: https://github.com/EverydaySimpleDev/Chibi-Robo-Randomizer
 
 Get EmoTracker here: https://emotracker.net/
 
-PopTracker Support (Archipelago Not Fully Supported Yet)
+Get PopTracker here: https://poptracker.github.io/
 
 ## Installation
 

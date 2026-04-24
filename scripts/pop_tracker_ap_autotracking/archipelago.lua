@@ -189,6 +189,158 @@ function onLocation(location_id, location_name)
 end
 
 
+local _STAGE_MAPPING = {
+    {
+        "Living Room",
+        {
+            {"Living Room", "livingroommap"},
+        }
+    },
+    {
+        "Kitchen",
+        {
+            {"Kitchen", "kitchenmap" },
+        }
+    },
+    {
+        "Drain",
+        {
+            {"Sink Drain", "drainmap" },
+        }
+    },
+    {
+        "Backyard",
+        {
+            { "Backyard", "backyardmap"},
+        }
+    },
+    {
+        "Foyer",
+        {
+            {"Foyer", "foyermap" },
+        }
+    },
+    {
+        "Basement",
+        {
+            { "Basement", "basementmap"},
+        }
+    },
+    {
+        "Jenny's Room",
+        {
+            {"Jenny's Room", "jennysroommap" },
+        }
+    },
+    {
+        "Bedroom",
+        {
+            {"Bedroom", "bedroommap"},
+        }
+    },
+   
+}
+local STAGE_NAME_TO_TAB_NAME = {}
+local STAGE_NAME_TO_EXIT_NAME = {}
+for _, pair in ipairs(_STAGE_MAPPING) do
+
+    local tab_name = pair[1]
+    local stage_list = pair[2]
+    for _, stage_data in ipairs(stage_list) do
+        local stage_name = stage_data[1]
+        STAGE_NAME_TO_TAB_NAME[stage_name] = tab_name
+
+        local exit_name = stage_data[2]
+        if exit_name then
+            STAGE_NAME_TO_EXIT_NAME[stage_name] = exit_name
+
+        end
+    end
+end
+_STAGE_MAPPING = nil
+
+_last_activated_tab = ""
+function onMap(stage_name)
+    if not stage_name then
+        return
+    end
+
+    print(stage_name)
+
+    
+    local tab_name = STAGE_NAME_TO_TAB_NAME[stage_name]
+
+    if tab_name and tab_name ~= _last_activated_tab then
+            
+        Tracker:UiHint("ActivateTab", tab_name)
+
+        -- Always set the last activated tab, so that if the player has the setting on that only switches when
+         -- entering a dungeon, enters a dungeon, leaves, and then re-enters, the map will switch to the dungeon
+        -- again.
+        last_activated_tab = tab_name
+            
+    end
+
+
+    -- Assign the current stage_name to its entrance as read from slot_data
+    -- if ENTRANCE_RANDO_ENABLED then
+    --     entranceRandoAssignEntranceFromVisitedStage(stage_name, false)
+    -- end
+end
+
+function entranceRandoAssignEntranceFromVisitedStage(stage_name, prevent_logic_update)
+    local exit_name = STAGE_NAME_TO_EXIT_NAME[stage_name]
+    if not exit_name then
+        print("Could not find an exit_name for "..stage_name)
+        return
+    end
+
+    local exit = EXITS_BY_NAME[exit_name]
+    if not exit then
+        print("Could not find an exit with the name "..exit_name)
+        return
+    end
+
+    local entrance_name = SLOT_DATA_EXIT_TO_ENTRANCE[exit_name]
+    if not entrance_name then
+        print("Could not find an entrance_name for "..exit_name)
+        return
+    end
+
+    local entrance = ENTRANCE_BY_NAME[entrance_name]
+    if not entrance then
+        print("Could not find an entrance with the name "..entrance_name)
+        return
+    end
+
+    -- Do not replace an existing assignment.
+    local set_correctly = entrance:Assign(exit, false, prevent_logic_update)
+    if not set_correctly then
+        print("Warning: Failed to assign entrance mapping "..entrance_name.." -> "..exit_name..".")
+    end
+end
+
+-- called when a bounce message is received 
+function onBounced(value)
+    local slots = value["slots"]
+    -- Lua does not support `slots ~= {Archipelago.PlayerNumber}`, so check the first and second values in the table.
+    if not slots or not (slots[1] == Archipelago.PlayerNumber and slots[2] == nil) then
+        -- All Bounced messages to be processed by this tracker are expected to target the player's slot specifically.
+        return
+    end
+
+    local data = value["data"]
+    if not data then
+        return
+    end
+
+    -- The key is specified in the AP client.
+    onMap(data["chibi_robo_stage_name"])
+end
+
+
+Archipelago:AddBouncedHandler("bounced handler", onBounced)
+
 -- add AP callbacks
 -- Archipelago:AddClearHandler("clear handler", onClear)
 

@@ -3,14 +3,14 @@
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 ITEM_MAPPING = {
     [2322432] = {"tooth_brush", "toggle"},
-    [2322433] = {"spoon", "toggle"},
     [2322434] = {"mug", "toggle"},
     [2322435] = {"blaster", "toggle"},
+    [2322433] = {"spoon", "toggle"},
     [2322436] = {"squirter", "toggle"},
     [2322437] = {"range_chip", "toggle"},
     [2322438] = {"ear_chip", "toggle"},
     [2322439] = {"charge_chip", "toggle"},
-    [2322440] = {"gigabattery", "progressive"},
+    [2322440] = {"giga_battery", "toggle"},
     [2322441] = {"giga_charger", "toggle"},
     [2322442] = {"giga_left_leg", "toggle"},
     [2322443] = {"toy_receipt", "toggle"},
@@ -49,7 +49,12 @@ ITEM_MAPPING = {
     [2322476] = {"army_photo", "toggle"},
     [2322477] = {"passed_out_frog", "toggle"},
     [2322478] = {"yellow_crayon", "toggle"},
-    [2322479] = {"snorkel", "toggle"},
-    [2322665] = {"blue_block", "toggle"},
-    [2322666] = {"space_scrambler", "toggle"}
+    [2322479] = {"snorkle", "toggle"},
+    [2322481] = {"blue_block", "toggle"},
+    [2322482] = {"space_scrambler", "toggle"},
+    [2322496] = {"living_room_ladder", "toggle"},
+    [2322497] = {"kitchen_ladder", "toggle"},
+    [2322499] = {"foyer_ladder", "toggle"},
+    [2322500] = {"living_room_bridge", "toggle"},
+    [2322501] = {"kitchen_bridge", "toggle"}
 }

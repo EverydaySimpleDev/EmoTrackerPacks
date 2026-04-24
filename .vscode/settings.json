@@ -1,0 +1,29 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "items.json",
+        "items/**/*.json"
+      ],
+      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/items.json"
+    },
+    {
+      "fileMatch": [
+        "locations.json",
+        "locations/**/*.json"
+      ],
+      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/locations.json"
+    },
+    {
+      "fileMatch": [
+        "layouts.json",
+        "layouts/**/*.json"
+      ],
+      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/layouts.json"
+    },
+    {
+      "fileMatch": [ "manifest.json" ],
+      "url": "https://raw.githubusercontent.com/EmoTracker-Community/EmoTracker-Service/main/sdk/schema/manifest.json"
+    }
+  ]
+}

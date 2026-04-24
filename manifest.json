@@ -1,18 +1,17 @@
 {
-  "name": "Chibi Robo Unpluged Randomizer Map Tracker",
-  "game_name": "Chibi Robo Unpluged",
-  "package_version": "1.0.0.0",
-  "package_uid": "chibirobounplugedrando",
+  "name": "Chibi-Robo! Plug Into Adventure! Randomizer Map Tracker",
+  "game_name": "Chibi-Robo! Plug Into Adventure!",
+  "package_version": "1.0.5",
+  "package_uid": "crpia_randomizer_everydaysimpledev",
   "author": "EverydaySimpleDev",
+  "platform": "Gamecube",
   "variants": {
-		"default": {
-			"display_name": "Chibi Robo Tracker"
-		},
-		"standard": {
-			"display_name": "Chibi Robo Multiworld",
-			"flags": [
-			    "ap" 
-			]
-		}
-	}
+    "default": {
+      "display_name": "Chibi Robo Tracker"
+    },
+    "standard": {
+      "display_name": "Chibi Robo Multiworld",
+      "flags": ["ap"]
+    }
+  }
 }

@@ -81,10 +81,7 @@ LOCATION_MAPPING = {
     [2326660] = {"@Backyard - Twig by Fence"},
     [2326661] = {"@Backyard - Twig under Tree"},
     [2326662] = {"@Backyard - Twig under Awning"},
-    [2326663] = {"@Backyard - Scurvy Splinter"},
-    [2326664] = {"@Backyard - Weeds A"},
-    [2326665] = {"@Backyard - Weeds B"},
-    [2326666] = {"@Backyard - Weeds C"},
+    -- [2326663] = {"@Backyard - Scurvy Splinter"},
     [2326667] = {"@Backyard - Frog Ring"},
     [2326673] = {"@Backyard - White Block"},
     [2326674] = {"@Jenny's Room - AA Battery"},
@@ -146,5 +143,4 @@ LOCATION_MAPPING = {
     [2326740] = {"@Bedroom - Vanity Candy Wrapper B"},
     [2326741] = {"@Bedroom - Shelf Candy Wrapper"},
     [2326742] = {"@Bedroom - Vanity Candy Bag"},
-    -- [2326750] = {"@Victory"}
 }

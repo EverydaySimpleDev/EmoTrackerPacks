@@ -13,7 +13,7 @@
             "always_allow_chest_manipulation": true,
             "children": [
               {
-                "name": "Living Room - Frog Ring Behind Window",
+                "name": "Living Room - Frog Ring (Behind Window)",
                 "sections": [
                   {
                     "name": "Item",
@@ -30,7 +30,7 @@
                 ]
               },
               {
-                "name": "Living Room - Frog Ring Corkboard",
+                "name": "Living Room - Frog Ring (Corkboard)",
                 "sections": [
                   {
                     "name": "Item",
@@ -49,7 +49,7 @@
                 ]
               },
               {
-                "name": "Living Room - Frog Ring Shelf",
+                "name": "Living Room - Frog Ring (Shelf)",
                 "sections": [
                   {
                     "name": "Item",
@@ -708,7 +708,7 @@
                 ]
               },
               {
-                "name": "Kitchen - Cookie Crumbs on Kitchen - Table",
+                "name": "Kitchen - Cookie Crumbs on Kitchen Table",
                 "sections": [
                   {
                     "name": "Item",
@@ -821,12 +821,11 @@
                 ]
               },
               {
-                "name": "Kitchen - Frog Ring Table",
+                "name": "Kitchen - Frog Ring (Table)",
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["blaster,copter"]
+                    "item_count": 1
                   }
                 ],
                 "map_locations": [
@@ -1061,7 +1060,7 @@
                 ]
               },
               {
-                "name": "Basement - Giga-Charger",
+                "name": "Basement - Giga Charger",
                 "sections": [
                   {
                     "name": "Item",
@@ -1375,74 +1374,6 @@
                 ]
               },
               {
-                "name": "Backyard - Scurvy Splinter",
-                "sections": [
-                  {
-                    "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["blaster,spoon"]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "backyardmap",
-                    "x": 400,
-                    "y": 550
-                  }
-                ]
-              },
-              {
-                "name": "Backyard - Weeds A",
-                "sections": [
-                  {
-                    "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["blaster"]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "backyardmap",
-                    "x": 980,
-                    "y": 430
-                  }
-                ]
-              },
-              {
-                "name": "Backyard - Weeds B",
-                "sections": [
-                  {
-                    "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["blaster"]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "backyardmap",
-                    "x": 1000,
-                    "y": 410
-                  }
-                ]
-              },
-              {
-                "name": "Backyard - Weeds C",
-                "sections": [
-                  {
-                    "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["blaster"]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "backyardmap",
-                    "x": 1000,
-                    "y": 460
-                  }
-                ]
-              },
-              {
                 "name": "Backyard - Frog Ring",
                 "sections": [
                   {
@@ -1490,7 +1421,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,red_shoe,mug"]
+                    "access_rules": ["foyer_ladder,mug"]
                   }
                 ],
                 "map_locations": [
@@ -1507,7 +1438,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,red_shoe,blaster,copter,mug"]
+                    "access_rules": ["foyer_ladder,blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
@@ -1524,7 +1455,7 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,red_shoe,blaster,copter,mug"]
+                    "access_rules": ["foyer_ladder,blaster,copter,mug"]
                   }
                 ],
                 "map_locations": [
@@ -1583,23 +1514,6 @@
                     "map": "jennysroommap",
                     "x": 320,
                     "y": 350
-                  }
-                ]
-              },
-              {
-                "name": "Jenny's Room - All Trash Under Bed",
-                "sections": [
-                  {
-                    "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "jennysroommap",
-                    "x": 400,
-                    "y": 600
                   }
                 ]
               },
@@ -1758,6 +1672,91 @@
               },
               {
                 "name": "Jenny's Room - Candy Wrapper on Bed B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Candy Wrapper below Bed A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Candy Wrapper below Bed B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Candy Wrapper below Bed C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Orange Can",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": ["foyer_ladder,mug"]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Purple Can",
                 "sections": [
                   {
                     "name": "Item",
@@ -2156,23 +2155,6 @@
                 ]
               },
               {
-                "name": "Bedroom - Left Leg in Suitcase",
-                "sections": [
-                  {
-                    "name": "Item",
-                    "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,ear_chip"]
-                  }
-                ],
-                "map_locations": [
-                  {
-                    "map": "bedroommap",
-                    "x": 340,
-                    "y": 360
-                  }
-                ]
-              },
-              {
                 "name": "Bedroom - Ticket Stub",
                 "sections": [
                   {
@@ -2190,7 +2172,7 @@
                 ]
               },
               {
-                "name": "Bedroom - Passed-Out Frog",
+                "name": "Bedroom - Passed Out Frog",
                 "sections": [
                   {
                     "name": "Item",

@@ -83,5 +83,4 @@ function updateItems(segment)
     return true
 end
 
-ScriptHost:AddMemoryWatch("Chibi Robo Item Data", 0x80396576, 8, updateItems)
 

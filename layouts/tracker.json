@@ -31,7 +31,7 @@
                 "range_chip",
                 "ear_chip",
                 "chibi_battery",
-                "gigabattery",
+                "giga_battery",
                 "giga_charger",
                 "giga_left_leg",
                 "suit_frog"
@@ -48,36 +48,36 @@
                 "suit_ghost"
               ],
               [
-                "red_block",         
-                "green_block",    
-                "white_block",  
-                "blue_block",       
-                "yellow_block",               
-                "purple_block",     
-                "passed_out_frog",   
+                "red_block",
+                "green_block",
+                "white_block",
+                "blue_block",
+                "yellow_block",
+                "purple_block",
+                "passed_out_frog",
                 "dinah_teeth",
                 "suit_pajama"
               ],
               [
-                "red_crayon",        
-                "yellow_crayon",  
-                "green_crayon", 
-                "purple_crayon",    
-                "dog_tags",                   
-                "bandage",          
-                "red_shoe",          
+                "red_crayon",
+                "yellow_crayon",
+                "green_crayon",
+                "purple_crayon",
+                "dog_tags",
+                "bandage",
+                "red_shoe",
                 "dads_wedding_band",
                 "suit_toa"
               ],
               [
-                "scarvey_splinter",
                 "snorkle",
-                "divorce",
+                "",
                 "living_room_bridge",
                 "foyer_ladder",
                 "kitchen_ladder",
                 "living_room_ladder",
                 "kitchen_bridge",
+                "",
                 "suit_trama"
               ]
             ]
@@ -128,7 +128,6 @@
             }
           ]
         }
-        
       ]
     }
   },
@@ -172,7 +171,7 @@
         {
           "type": "tabbed",
           "tabs": [
-			      {
+            {
               "title": "Maps",
               "content": {
                 "type": "tabbed",
@@ -182,9 +181,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "livingroommap"
-                      ]
+                      "maps": ["livingroommap"]
                     }
                   },
                   {
@@ -192,9 +189,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "kitchenmap"
-                      ]
+                      "maps": ["kitchenmap"]
                     }
                   },
                   {
@@ -202,9 +197,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "drainmap"
-                      ]
+                      "maps": ["drainmap"]
                     }
                   },
                   {
@@ -212,9 +205,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "backyardmap"
-                      ]
+                      "maps": ["backyardmap"]
                     }
                   },
                   {
@@ -222,9 +213,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "foyermap"
-                      ]
+                      "maps": ["foyermap"]
                     }
                   },
                   {
@@ -232,9 +221,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "foyer2fmap"
-                      ]
+                      "maps": ["foyer2fmap"]
                     }
                   },
                   {
@@ -242,9 +229,7 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "basementmap"
-                      ]
+                      "maps": ["basementmap"]
                     }
                   },
                   {
@@ -252,26 +237,20 @@
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "jennysroommap"
-                      ]
+                      "maps": ["jennysroommap"]
                     }
                   },
                   {
-                    "title": "Bed Room",
+                    "title": "Bedroom",
                     "icon": "images/sun.png",
                     "content": {
                       "type": "map",
-                      "maps": [
-                        "bedroommap"
-                      ]
+                      "maps": ["bedroommap"]
                     }
                   }
-                
                 ]
               }
             }
-            
           ]
         }
       ]

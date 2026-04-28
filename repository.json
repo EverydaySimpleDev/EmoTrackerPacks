@@ -5,7 +5,7 @@
       "name": "Chibi-Robo! Plug Into Adventure! Randomizer Map Tracker",
       "author": "EverydaySimpleDev",
       "game_name": "Chibi-Robo! Plug Into Adventure!",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "flags": ["Map", "Pins"],
       "required_app_version": "2.3.8.8",
       "uid": "crpia_randomizer_everydaysimpledev",

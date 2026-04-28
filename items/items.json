@@ -42,8 +42,7 @@
     "type": "toggle",
     "loop": true,
     "img": "images/items/copter.png",
-    "codes": "copter",
-    "initial_active_state": "true"
+    "codes": "copter"
   },
   {
     "name": "Toy Receipt",
@@ -93,13 +92,6 @@
     "loop": true,
     "img": "images/items/uncharged_giga_battery.png",
     "codes": "giga_battery"
-  },
-  {
-    "name": "Giga Left Leg",
-    "type": "toggle",
-    "loop": true,
-    "img": "images/items/left_leg.png",
-    "codes": "giga_left_leg"
   },
   {
     "name": "Free Rangers Photo",

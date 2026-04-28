@@ -1292,8 +1292,8 @@
                 "map_locations": [
                   {
                     "map": "basementmap",
-                    "x": 860,
-                    "y": 600
+                    "x": 660,
+                    "y": 300
                   }
                 ]
               }

@@ -127,7 +127,6 @@ LOCATION_MAPPING = {
     [2326719] = {"@Jenny's Room - Purple Crayon"},
     [2326720] = {"@Jenny's Room - Green Block"},
     [2326726] = {"@Bedroom - Dinahs Teeth"},
-    [2326727] = {"@Bedroom - Left Leg in Suitcase"},
     [2326728] = {"@Bedroom - Ticket Stub"},
     [2326729] = {"@Bedroom - Passed Out Frog"},
     [2326730] = {"@Bedroom - Wastepaper by Bills B"},

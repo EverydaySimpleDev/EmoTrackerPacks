@@ -33,7 +33,7 @@
                 "chibi_battery",
                 "giga_battery",
                 "giga_charger",
-                "giga_left_leg",
+                "snorkle",
                 "suit_frog"
               ],
               [
@@ -70,7 +70,7 @@
                 "suit_toa"
               ],
               [
-                "snorkle",
+                "",
                 "",
                 "living_room_bridge",
                 "foyer_ladder",
@@ -105,6 +105,93 @@
           "dock": "left",
           "v_alignment": "stretch",
           "content": [
+            {
+              "type": "tabbed",
+              "header": "Maps",
+              "dock": "top",
+              "tabs": [
+                {
+                  "title": "Maps",
+                  "content": {
+                    "type": "tabbed",
+                    "tabs": [
+                      {
+                        "title": "Living Room",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["livingroommap"]
+                        }
+                      },
+                      {
+                        "title": "Kitchen",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["kitchenmap"]
+                        }
+                      },
+                      {
+                        "title": "Drain",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["drainmap"]
+                        }
+                      },
+                      {
+                        "title": "Backyard",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["backyardmap"]
+                        }
+                      },
+                      {
+                        "title": "Foyer",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["foyermap"]
+                        }
+                      },
+                      {
+                        "title": "Foyer 2F",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["foyer2fmap"]
+                        }
+                      },
+                      {
+                        "title": "Basement",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["basementmap"]
+                        }
+                      },
+                      {
+                        "title": "Jenny's Room",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["jennysroommap"]
+                        }
+                      },
+                      {
+                        "title": "Bedroom",
+                        "icon": "images/sun.png",
+                        "content": {
+                          "type": "map",
+                          "maps": ["bedroommap"]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
             {
               "type": "group",
               "header": "Items",

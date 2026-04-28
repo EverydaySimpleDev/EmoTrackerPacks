@@ -2,6 +2,7 @@
 -- first value is the code of the target item and the second is the item type (currently only "toggle", "progressive" and "consumable" but feel free to expand for your needs!)
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 ITEM_MAPPING = {
+    [2322504] = {"copter", "toggle"},
     [2322432] = {"tooth_brush", "toggle"},
     [2322434] = {"mug", "toggle"},
     [2322435] = {"blaster", "toggle"},

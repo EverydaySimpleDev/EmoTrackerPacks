@@ -1,8 +1,7 @@
 [
   {
     "name": "Frog Rings",
-    "type": "toggle",
-    "loop": true,
+    "type": "consumable",
     "img": "images/items/frog_ring.png",
     "min_quantity": 0,
     "max_quantity": 10,
@@ -332,6 +331,48 @@
     "codes": "suit_trama"
   },
   {
+    "name": "Super Chibi-Robo Suit",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/suits/suit_super.png",
+    "codes": "suit_super"
+  },
+  {
+    "name": "Giga Left Leg",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/left_leg.png",
+    "codes": "giga_left_leg"
+  },
+  {
+    "name": "Scurvy Splinter",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/scarvey_splinter.png",
+    "codes": "scarvey_splinter"
+  },
+  {
+    "name": "Dog Bone",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/bone.png",
+    "codes": "dog_bone"
+  },
+  {
+    "name": "Old Clothes",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/med_suit.png",
+    "codes": "old_clothes"
+  },
+  {
+    "name": "Foyer Teleport",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/ladder_on.png",
+    "codes": "foyer_teleport"
+  },
+  {
     "name": "Foyer Ladder",
     "type": "toggle",
     "loop": true,
@@ -365,5 +406,54 @@
     "loop": true,
     "img": "images/items/ladder_on.png",
     "codes": "living_room_bridge"
+  },
+  {
+    "name": "Living Room - Kitchen Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/lr_kitchen_key.png",
+    "codes": "lr_kitchen_key"
+  },
+  {
+    "name": "Living Room - Foyer Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/lr_foyer_key.png",
+    "codes": "lr_foyer_key"
+  },
+  {
+    "name": "Kitchen - Foyer Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/kitchen_foyer_key.png",
+    "codes": "kitchen_foyer_key"
+  },
+  {
+    "name": "Foyer - Jenny's Room Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/foyer_jennyroom_key.png",
+    "codes": "foyer_jennyroom_key"
+  },
+  {
+    "name": "Foyer - Bedroom Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/foyer_bedroom_key.png",
+    "codes": "foyer_bedroom_key"
+  },
+  {
+    "name": "Foyer - Basement Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/foyer_basement_key.png",
+    "codes": "foyer_basement_key"
+  },
+  {
+    "name": "Living Room - Backyard Key",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/keys/lr_backyard_key.png",
+    "codes": "lr_backyard_key"
   }
 ]

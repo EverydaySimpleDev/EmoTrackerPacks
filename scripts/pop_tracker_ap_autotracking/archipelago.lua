@@ -344,6 +344,73 @@ Archipelago:AddBouncedHandler("bounced handler", onBounced)
 -- add AP callbacks
 -- Archipelago:AddClearHandler("clear handler", onClear)
 
+-- Hint highlights: the server keeps this slot's hints in data storage under
+-- _read_hints_<team>_<slot>. Locations in this world get the hint's status as their
+-- highlight (priority hints, like the client's Chibi Rank ones, are the yellow one).
+
+HINT_STATUS_TO_HIGHLIGHT = nil
+if Highlight then
+    HINT_STATUS_TO_HIGHLIGHT = {
+        [0] = Highlight.Unspecified,
+        [10] = Highlight.NoPriority,
+        [20] = Highlight.Avoid,
+        [30] = Highlight.Priority,
+        [40] = Highlight.None, -- found
+    }
+end
+
+function hintsKey()
+    return "_read_hints_" .. Archipelago.TeamNumber .. "_" .. Archipelago.PlayerNumber
+end
+
+function setLocationHighlight(location_id, highlight)
+    local v = LOCATION_MAPPING[location_id]
+    if not v then
+        return
+    end
+    for _, code in ipairs(v) do
+        local obj = Tracker:FindObjectForCode(code .. "/Item")
+        if obj then
+            obj.Highlight = highlight
+        end
+    end
+end
+
+function onHints(hints)
+    if not HINT_STATUS_TO_HIGHLIGHT or not hints then
+        return
+    end
+    for _, hint in ipairs(hints) do
+        if hint.finding_player == Archipelago.PlayerNumber then
+            -- servers from before hint status only send `found`
+            local status = hint.status or (hint.found and 40 or 0)
+            setLocationHighlight(hint.location, HINT_STATUS_TO_HIGHLIGHT[status] or Highlight.None)
+        end
+    end
+end
+
+function onHintsChanged(key, value)
+    if key == hintsKey() then
+        onHints(value)
+    end
+end
+
+Archipelago:AddClearHandler("slot data handler", function(slot_data)
+    SLOT_DATA = slot_data
+    if HINT_STATUS_TO_HIGHLIGHT then
+        for location_id, _ in pairs(LOCATION_MAPPING) do
+            setLocationHighlight(location_id, Highlight.None)
+        end
+        Archipelago:SetNotify({hintsKey()})
+        Archipelago:Get({hintsKey()})
+    end
+end)
+
+if HINT_STATUS_TO_HIGHLIGHT then
+    Archipelago:AddRetrievedHandler("hints retrieved handler", onHintsChanged)
+    Archipelago:AddSetReplyHandler("hints set reply handler", onHintsChanged)
+end
+
 if AUTOTRACKER_ENABLE_ITEM_TRACKING then
     Archipelago:AddItemHandler("item handler", onItem)
 end

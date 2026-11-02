@@ -18,7 +18,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["living_room_ladder,blaster"]
+                    "access_rules": [
+                      "living_room_ladder,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -118,7 +120,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -247,7 +251,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -296,7 +302,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -329,7 +337,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -474,7 +484,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -539,7 +551,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -556,7 +570,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -573,7 +589,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -590,7 +608,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter"]
+                    "access_rules": [
+                      "copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -598,6 +618,87 @@
                     "map": "livingroommap",
                     "x": 770,
                     "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Drake Redcrest Suit",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "tooth_brush"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 1080,
+                    "y": 480
+                  }
+                ]
+              },
+              {
+                "name": "Living Room - Toy receipt on coach",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "copter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 710,
+                    "y": 280
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Chibi House",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children": [
+              {
+                "name": "Chibi House - Trauma Suit",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 250,
+                    "y": 560
+                  }
+                ]
+              },
+              {
+                "name": "Chibi House - Ghost Suit",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "suit_trama"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 290,
+                    "y": 590
                   }
                 ]
               }
@@ -614,7 +715,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -631,7 +735,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["kitchen_ladder"]
+                    "access_rules": [
+                      "$can_reach_kitchen,kitchen_ladder"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -647,7 +753,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -663,7 +772,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -679,7 +791,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -696,7 +811,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["kitchen_ladder"]
+                    "access_rules": [
+                      "$can_reach_kitchen,kitchen_ladder"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -712,7 +829,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -728,7 +848,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -744,7 +867,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -760,7 +886,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -776,7 +905,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -792,7 +924,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -809,7 +944,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["kitchen_ladder,blaster,copter"]
+                    "access_rules": [
+                      "$can_reach_kitchen,kitchen_ladder,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -825,7 +962,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -841,7 +981,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -857,7 +1000,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -873,7 +1019,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -889,7 +1038,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -905,7 +1057,10 @@
                 "sections": [
                   {
                     "name": "Item",
-                    "item_count": 1
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -922,7 +1077,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["kitchen_ladder"]
+                    "access_rules": [
+                      "$can_reach_kitchen,kitchen_ladder"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -939,7 +1096,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["kitchen_ladder"]
+                    "access_rules": [
+                      "$can_reach_kitchen,kitchen_ladder"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -947,6 +1106,63 @@
                     "map": "kitchenmap",
                     "x": 380,
                     "y": 340
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Wastepaper on Shelf by Toaster",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen,kitchen_ladder"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 300,
+                    "y": 160
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Cookie Crumbs under Counter",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 650,
+                    "y": 680
+                  }
+                ]
+              },
+              {
+                "name": "Kitchen - Flower Cookie",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_kitchen"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "kitchenmap",
+                    "x": 690,
+                    "y": 540
                   }
                 ]
               }
@@ -964,7 +1180,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["copter,blaster"]
+                    "access_rules": [
+                      "$can_reach_drain,copter,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -989,7 +1207,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1006,7 +1226,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug,copter,foyer_ladder,blaster"]
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs,copter,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1023,7 +1245,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug,copter,foyer_ladder"]
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1031,6 +1255,424 @@
                     "map": "foyermap",
                     "x": 510,
                     "y": 780
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Wastepaper On Stairs",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 695,
+                    "y": 420
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper by Entrance",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 690,
+                    "y": 375
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper by Jenny Photo A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 780,
+                    "y": 340
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper by Jenny Photo B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 790,
+                    "y": 315
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Soda Can on Shelf",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 1040,
+                    "y": 475
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper by Spaceship Shelf A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 830,
+                    "y": 810
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper by Spaceship Shelf B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 840,
+                    "y": 795
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper on Sofa A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 205,
+                    "y": 580
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper on Sofa B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 200,
+                    "y": 600
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper on Floor by Door",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 370,
+                    "y": 250
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Wastepaper by Parents' Door",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 260,
+                    "y": 720
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Wastepaper by stairs",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 515,
+                    "y": 595
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Cookie Crumbs by stairs",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 480,
+                    "y": 625
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Candy Wrapper by Parents' Door",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 295,
+                    "y": 710
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Candy Wrapper by Jenny's Door A",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 960,
+                    "y": 180
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Candy Wrapper by Jenny's Door B",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 985,
+                    "y": 195
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Tao Suit",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer,dog_tags,foyer_ladder,blaster"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 760,
+                    "y": 570
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper on Sofa C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 235,
+                    "y": 595
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper on Lower Shelf by Entrance",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 1005,
+                    "y": 790
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper by Spaceship Shelf C",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 865,
+                    "y": 820
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Candy Wrapper on Stairs",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyermap",
+                    "x": 530,
+                    "y": 255
+                  }
+                ]
+              },
+              {
+                "name": "Foyer - Upstairs Soda Can",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_foyer_upstairs"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "foyer2fmap",
+                    "x": 765,
+                    "y": 630
                   }
                 ]
               }
@@ -1043,12 +1685,14 @@
             "always_allow_chest_manipulation": true,
             "children": [
               {
-                "name": "Basement - Giga-Battery",
+                "name": "Basement - Giga Battery",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1065,7 +1709,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,copter,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1082,7 +1728,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1099,7 +1747,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1116,7 +1766,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1133,7 +1785,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1150,7 +1804,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1167,7 +1823,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,copter,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1184,7 +1842,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1201,7 +1861,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["mug"]
+                    "access_rules": [
+                      "$can_reach_basement"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1218,7 +1880,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1235,7 +1899,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,copter,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1252,7 +1918,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,copter,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1269,7 +1937,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1281,12 +1951,14 @@
                 ]
               },
               {
-                "name": "Basement - Cabinet Trash B",
+                "name": "Basement - Trash On Stairs",
                 "sections": [
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,mug"]
+                    "access_rules": [
+                      "$can_reach_basement,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1311,7 +1983,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster"]
+                    "access_rules": [
+                      "$can_reach_backyard,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1328,7 +2002,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster"]
+                    "access_rules": [
+                      "$can_reach_backyard,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1345,7 +2021,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster"]
+                    "access_rules": [
+                      "$can_reach_backyard,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1362,7 +2040,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster"]
+                    "access_rules": [
+                      "$can_reach_backyard,blaster"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1379,7 +2059,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,copter"]
+                    "access_rules": [
+                      "$can_reach_backyard,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1396,7 +2078,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["blaster,copter,suit_frog,squirter"]
+                    "access_rules": [
+                      "$can_reach_backyard,blaster,copter,suit_frog,squirter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1404,6 +2088,44 @@
                     "map": "backyardmap",
                     "x": 950,
                     "y": 660
+                  }
+                ]
+              },
+              {
+                "name": "Backyard - Frog Suit",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_backyard,blaster,squirter"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 995,
+                    "y": 430
+                  }
+                ]
+              },
+              {
+                "name": "Backyard - Scurvy Splinter",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_backyard"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "backyardmap",
+                    "x": 820,
+                    "y": 800
                   }
                 ]
               }
@@ -1421,7 +2143,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1438,7 +2162,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,blaster,copter,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1455,7 +2181,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,blaster,copter,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room,blaster,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1472,7 +2200,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1489,7 +2219,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1506,7 +2238,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1523,7 +2257,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1540,7 +2276,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1557,7 +2295,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1574,7 +2314,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1591,7 +2333,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1608,7 +2352,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1625,7 +2371,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1642,7 +2390,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1659,7 +2409,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1676,7 +2428,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1693,7 +2447,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1710,7 +2466,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1727,7 +2485,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1744,7 +2504,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1761,7 +2523,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1778,7 +2542,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1795,7 +2561,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1812,7 +2580,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1829,7 +2599,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1846,7 +2618,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1863,7 +2637,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1880,7 +2656,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1897,7 +2675,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1914,7 +2694,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_jennys_room,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1931,7 +2713,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1948,7 +2732,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1965,7 +2751,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1982,7 +2770,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -1999,7 +2789,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2016,7 +2808,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2033,7 +2827,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2050,7 +2846,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2067,7 +2865,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2084,7 +2884,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2101,7 +2903,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2118,7 +2922,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2126,6 +2932,25 @@
                     "map": "jennysroommap",
                     "x": 360,
                     "y": 640
+                  }
+                ]
+              },
+              {
+                "name": "Jenny's Room - Wastepaper under Bed E",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_jennys_room"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "jennysroommap",
+                    "x": 380,
+                    "y": 600
                   }
                 ]
               }
@@ -2143,7 +2968,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,suit_frog"]
+                    "access_rules": [
+                      "$can_reach_bedroom,suit_frog"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2160,7 +2987,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2177,7 +3006,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,suit_frog"]
+                    "access_rules": [
+                      "$can_reach_bedroom,suit_frog"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2194,7 +3025,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_bedroom"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2211,7 +3044,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_bedroom"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2228,7 +3063,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_bedroom"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2245,7 +3082,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_bedroom"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2262,7 +3101,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2279,7 +3120,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2296,7 +3139,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2313,7 +3158,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2330,7 +3177,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2347,7 +3196,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2364,7 +3215,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2381,7 +3234,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug"]
+                    "access_rules": [
+                      "$can_reach_bedroom"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2398,7 +3253,9 @@
                   {
                     "name": "Item",
                     "item_count": 1,
-                    "access_rules": ["foyer_ladder,mug,copter"]
+                    "access_rules": [
+                      "$can_reach_bedroom,copter"
+                    ]
                   }
                 ],
                 "map_locations": [
@@ -2406,6 +3263,71 @@
                     "map": "bedroommap",
                     "x": 500,
                     "y": 400
+                  }
+                ]
+              },
+              {
+                "name": "Bedroom - Pajama Suit",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_bedroom,old_clothes,toy_receipt"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "bedroommap",
+                    "x": 250,
+                    "y": 300
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Mother Spider",
+            "chest_unopened_img": "images/unopened.png",
+            "chest_opened_img": "images/opened.png",
+            "always_allow_chest_manipulation": true,
+            "children": [
+              {
+                "name": "Mother Spider - Frog Ring",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_mother_spider"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 40,
+                    "y": 40
+                  }
+                ]
+              },
+              {
+                "name": "Mother Spider - Left Leg",
+                "sections": [
+                  {
+                    "name": "Item",
+                    "item_count": 1,
+                    "access_rules": [
+                      "$can_reach_mother_spider"
+                    ]
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "livingroommap",
+                    "x": 80,
+                    "y": 40
                   }
                 ]
               }

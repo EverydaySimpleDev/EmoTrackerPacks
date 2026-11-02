@@ -71,14 +71,25 @@
               ],
               [
                 "",
-                "",
+                "dog_bone",
                 "living_room_bridge",
                 "foyer_ladder",
                 "kitchen_ladder",
                 "living_room_ladder",
                 "kitchen_bridge",
-                "",
+                "foyer_teleport",
                 "suit_trama"
+              ],
+              [
+                "lr_kitchen_key",
+                "lr_foyer_key",
+                "kitchen_foyer_key",
+                "foyer_jennyroom_key",
+                "foyer_bedroom_key",
+                "foyer_basement_key",
+                "lr_backyard_key",
+                "old_clothes",
+                "suit_super"
               ]
             ]
           }

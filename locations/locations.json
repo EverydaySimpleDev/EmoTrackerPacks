@@ -1360,7 +1360,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_foyer"
+                      "$can_reach_foyer_upstairs,copter"
                     ]
                   }
                 ],
@@ -1379,7 +1379,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_foyer"
+                      "$can_reach_foyer_upstairs,copter"
                     ]
                   }
                 ],
@@ -1398,7 +1398,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_foyer"
+                      "$can_reach_foyer_upstairs,copter"
                     ]
                   }
                 ],
@@ -1417,7 +1417,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_foyer"
+                      "$can_reach_foyer_upstairs,copter"
                     ]
                   }
                 ],
@@ -1588,7 +1588,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_foyer"
+                      "$can_reach_foyer_upstairs,copter"
                     ]
                   }
                 ],
@@ -1626,7 +1626,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_foyer"
+                      "$can_reach_foyer_upstairs,copter"
                     ]
                   }
                 ],
@@ -1984,7 +1984,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster"
+                      "$can_reach_backyard"
                     ]
                   }
                 ],
@@ -2003,7 +2003,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster"
+                      "$can_reach_backyard"
                     ]
                   }
                 ],
@@ -2022,7 +2022,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster"
+                      "$can_reach_backyard"
                     ]
                   }
                 ],
@@ -2041,7 +2041,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster"
+                      "$can_reach_backyard"
                     ]
                   }
                 ],
@@ -2060,7 +2060,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster,copter"
+                      "$can_reach_backyard,copter"
                     ]
                   }
                 ],
@@ -2079,7 +2079,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster,copter,suit_frog,squirter"
+                      "$can_reach_backyard,blaster,copter,charge_chip,squirter"
                     ]
                   }
                 ],
@@ -2098,7 +2098,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard,blaster,squirter"
+                      "$can_reach_backyard,squirter"
                     ]
                   }
                 ],
@@ -2117,7 +2117,7 @@
                     "name": "Item",
                     "item_count": 1,
                     "access_rules": [
-                      "$can_reach_backyard"
+                      "$can_reach_backyard,spoon"
                     ]
                   }
                 ],

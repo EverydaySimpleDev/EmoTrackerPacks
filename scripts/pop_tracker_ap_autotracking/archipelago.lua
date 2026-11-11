@@ -395,8 +395,18 @@ function onHintsChanged(key, value)
     end
 end
 
+-- Slot options that change tracker logic are mirrored onto setting toggles in the item grid
+function applySlotOptions(slot_data)
+    local open_upstairs = Tracker:FindObjectForCode("open_upstairs")
+    if open_upstairs then
+        local value = slot_data and slot_data["open_upstairs"]
+        open_upstairs.Active = value ~= nil and value ~= 0 and value ~= false
+    end
+end
+
 Archipelago:AddClearHandler("slot data handler", function(slot_data)
     SLOT_DATA = slot_data
+    applySlotOptions(slot_data)
     if HINT_STATUS_TO_HIGHLIGHT then
         for location_id, _ in pairs(LOCATION_MAPPING) do
             setLocationHighlight(location_id, Highlight.None)

@@ -36,8 +36,14 @@ function can_reach_basement()
     return can_reach_foyer() and has("foyer_basement_key")
 end
 
--- rules.py reach_second_floor: Foyer Ladder + Copter, or the Foyer Teleport
+-- rules.py reach_second_floor: Foyer Ladder + Copter, or the Foyer Teleport.
+-- With the Open Upstairs option the stairs replace those; the Basement Key is still needed
+-- for the story event that opens the second floor.
+-- The open_upstairs toggle is set from slot_data on connect, or by hand when not connected.
 function can_reach_foyer_upstairs()
+    if has("open_upstairs") then
+        return can_reach_foyer() and has("foyer_basement_key")
+    end
     return can_reach_foyer() and has("foyer_basement_key")
         and ((has("foyer_ladder") and has("copter")) or has("foyer_teleport"))
 end

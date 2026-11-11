@@ -450,6 +450,13 @@
     "codes": "foyer_basement_key"
   },
   {
+    "name": "Open Upstairs (Setting)",
+    "type": "toggle",
+    "loop": true,
+    "img": "images/items/ladder_on.png",
+    "codes": "open_upstairs"
+  },
+  {
     "name": "Living Room - Backyard Key",
     "type": "toggle",
     "loop": true,
